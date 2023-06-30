@@ -24,11 +24,16 @@ p{
     border: 10px solid red;
     width: 50px;
     height: 50px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    
 }
 .topo__{
     font-size: 10px;
     margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.direita__{
+    font-size: 10px;
+    margin: 10;
 }
