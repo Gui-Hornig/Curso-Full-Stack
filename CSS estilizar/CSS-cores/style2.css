@@ -12,7 +12,6 @@
 }
 
 .titulo__{
-    border: center;
     text-align: center;
     font-size: bold;
     font-size: 27px;
@@ -21,4 +20,10 @@
 
 .edit__{
     margin: 20px;
+}
+
+.decimal__{
+    color: purple;
+    text-align: center;
+    border: solid rgba(155, 0, 255, 0.1);
 }
