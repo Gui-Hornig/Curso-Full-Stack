@@ -2,15 +2,6 @@
     font-size: 40px;
 }
 
-.explicação{
-    font-size: medium;
-    font-size: 20px;
-    border: solid;
-    border-width: 4px;
-    border-color: rgba(155, 0, 255, 0.1);
-
-}
-
 .titulo__{
     text-align: center;
     font-size: bold;
@@ -20,12 +11,18 @@
 
 .edit__{
     margin: 20px;
+    font-size: medium;
+    font-size: 20px;
+    border: solid;
+    border-width: 4px;
+    border-color: rgba(155, 0, 255, 0.1);
 }
 
 .decimal__{
     color: rgb(49, 219, 34);
     text-align: center;
     border: solid rgba(155, 0, 255, 0.1);
+    margin: 20px;
 }
 
 .hexadecimal__{
@@ -33,6 +30,7 @@
     color:rgb(34, 176, 219);
     text-align: center;
     border: solid rgba(155, 0, 255, 0.1);
+    margin: 20px;
 }
 
 .rodape__{
@@ -40,4 +38,5 @@
     color:rgb(219, 216, 34);
     text-align: center;
     border: solid rgba(155, 0, 255, 0.1);
+    margin: 20px;
 }
