@@ -23,7 +23,21 @@
 }
 
 .decimal__{
-    color: purple;
+    color: rgb(49, 219, 34);
+    text-align: center;
+    border: solid rgba(155, 0, 255, 0.1);
+}
+
+.hexadecimal__{
+    margin-top: 20px;
+    color:rgb(34, 176, 219);
+    text-align: center;
+    border: solid rgba(155, 0, 255, 0.1);
+}
+
+.rodape__{
+    margin-top: 20px;
+    color:rgb(219, 216, 34);
     text-align: center;
     border: solid rgba(155, 0, 255, 0.1);
 }
