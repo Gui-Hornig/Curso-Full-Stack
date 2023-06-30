@@ -7,5 +7,7 @@ p{
     /* margin: 30px; Caso todos os lados forem iguais 
     pode usar essa propriedade pois economiza tempo e linhas de código*/ 
 
+    /* margin: 30px 15px; define o mesmo valor para topo e laterais*/
+
     margin: 30px 15px 28px 16px  /*Define as margens (Cima, direita, baixo, esqueda)*/
 }
