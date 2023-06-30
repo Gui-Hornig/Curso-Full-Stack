@@ -1,3 +1,24 @@
 .home{
     font-size: 40px;
 }
+
+.explicação{
+    font-size: medium;
+    font-size: 20px;
+    border: solid;
+    border-width: 4px;
+    border-color: rgba(155, 0, 255, 0.1);
+
+}
+
+.titulo__{
+    border: center;
+    text-align: center;
+    font-size: bold;
+    font-size: 27px;
+    color: rgba(155, 0, 255, 0.3);
+}
+
+.edit__{
+    margin: 20px;
+}
