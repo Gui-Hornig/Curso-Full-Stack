@@ -52,3 +52,11 @@ p{
     margin: 0;
     }
     
+    .esquerda__ {
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    margin: 0;
+        }
