@@ -18,8 +18,13 @@ p{
     font: center;
     padding: 20px;
 }
+.exemplo__{
+    border: solid;
+    font: center;
+    padding: 20px;
+}
 
-.test__{
+.quadrado__{
     margin: 20px;
     border: 10px solid red;
     width: 100px;
