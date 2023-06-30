@@ -1,3 +1,11 @@
 p{
-    margin: 30px;
+    /* margin-top:30px;
+    margin-bottom: 30px;   Utilizamos dessa forma para definir valores individuais.
+    margin-left: 30px;     
+    margin-right: 30px; */
+
+    /* margin: 30px; Caso todos os lados forem iguais 
+    pode usar essa propriedade pois economiza tempo e linhas de código*/ 
+
+    margin: 30px 15px 28px 16px  /*Define as margens (Cima, direita, baixo, esqueda)*/
 }
