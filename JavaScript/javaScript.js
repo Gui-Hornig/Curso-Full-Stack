@@ -8,3 +8,5 @@ de
 muliplas 
 linhas
 */
+
+console.log("teste")
