@@ -68,8 +68,10 @@ console.log( "Valor da area é:", area + "m2");
 let a = 7;
 let b = 94;
 
-let temp = a;
-a = b;
-b = temp;
+// let temp = a;
+// a = b;
+// b = temp;
+
+[a, b] = [b, a] //mais otimizado
 
 console.log(a ,"e", b );
