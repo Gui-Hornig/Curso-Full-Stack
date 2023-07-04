@@ -23,8 +23,8 @@ console.log("teste")
     const quantidade= 10;
     
 console.log("caneta");
-console.log(quantidade); //valor literal 
+console.log(quantidade); 
 console.log(preco);
 console.log(1.5);
-console.log(7.9); 
+console.log(7.9); //valor literal 
 }
