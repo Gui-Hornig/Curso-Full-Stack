@@ -5,4 +5,6 @@ console.log("testando funcionalidades", 6+3);
 
 /* comentario 
 de 
-muliplas linhas*/
+muliplas 
+linhas
+*/
