@@ -28,5 +28,7 @@
 
     let nome = "caderno";
     let categoria = "Papelaria"; 
-    console.log(nome + " " +  categoria); //Concatenando
+    console.log("Produto: "+ nome //Concatenando
+                + ", Categoria:" + " +  categoria
+                ", Preço:" + preco + ", Desconto: " + desconto); 
 }
