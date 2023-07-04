@@ -21,7 +21,7 @@ console.log("teste")
 {   
     const preco= 6.4;
     const quantidade= 10;
-    
+    const imposto=1.5;
 console.log("caneta");
 console.log(quantidade); 
 console.log(preco);
