@@ -33,3 +33,6 @@
                 + ", Preço: " + preco 
                 + ", Desconto: " + desconto); 
 }
+
+let salario = 4578.32;
+console.log(typeof salario); //mostra o tipo 
