@@ -18,7 +18,8 @@ console.log("teste")
 }
 
 
-{   
+{   // console.log(7.9); valor literal 
+    
     const preco= 6.4;
     const quantidade= 10;
     const imposto=1.5;
@@ -27,5 +28,5 @@ console.log(quantidade);
 console.log(preco);
 console.log(imposto);
 console.log(preco + imposto);
-console.log(7.9); //valor literal 
+
 }
