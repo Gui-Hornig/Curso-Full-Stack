@@ -52,3 +52,14 @@ let a = 3;
 a = a + 10;
 
 console.log(a);
+
+
+//////////////// Desafio ///////////////
+
+const PI = Math.PI;
+let raio = 10;
+let area = PI * raio * raio;
+console.log( "Valor da area é:", area + "m2");
+
+
+
