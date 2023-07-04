@@ -34,5 +34,11 @@
                 + ", Desconto: " + desconto); 
 }
 
+ // Tipos : Numeriocos, boolean e string
 let salario = 4578.32;
 console.log(typeof salario); //mostra o tipo 
+
+let estaChovendo = true // ou  false
+console.log(typeof estaChovendo)
+
+console.log(typeof "Teste")
