@@ -19,9 +19,12 @@ console.log("teste")
 
 
 {   
+    const preco= 6.4;
+    const quantidade= 10;
+    
 console.log("caneta");
-console.log(10); //valor literal 
-console.log(6.4);
+console.log(quantidade); //valor literal 
+console.log(preco);
 console.log(1.5);
 console.log(7.9); 
 }
