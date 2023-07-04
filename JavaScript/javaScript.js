@@ -25,6 +25,7 @@ console.log("teste")
 console.log("caneta");
 console.log(quantidade); 
 console.log(preco);
-console.log(1.5);
+console.log(imposto);
+console.log(preco + imposto);
 console.log(7.9); //valor literal 
 }
