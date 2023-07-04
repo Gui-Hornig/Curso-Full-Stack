@@ -45,6 +45,7 @@ console.log(typeof "Teste")
 
 ////////// Alterar o valor de variavel ///////////////
 
+// cons = 2; "variavel" constante nao pode ser mudado melhor para usar seguranca 
 
 let a = 3;
 
