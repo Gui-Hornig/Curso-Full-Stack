@@ -42,3 +42,12 @@ let estaChovendo = true // ou  false
 console.log(typeof estaChovendo)
 
 console.log(typeof "Teste")
+
+////////// Alterar o valor de variavel ///////////////
+
+
+let a = 3;
+
+a = a + 10;
+
+console.log(a);
