@@ -7,4 +7,7 @@ console.log(qualquer);
 console.log(typeof qualquer);
 
 
-//
+//Evitar nome genericos e siglas
+let valor = '';
+let numero = 1;
+let pqp = false; // Produto Quimico Pqrigoso... kkk
