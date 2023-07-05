@@ -65,7 +65,7 @@ console.log( "Valor da area é:", area + "m2");
 
 //////////////// Desafio 2 troca de variaveis///////////////
 
-let a = 7;
+let  = 7;
 let b = 94;
 
 // let temp = a;
