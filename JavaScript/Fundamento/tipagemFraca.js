@@ -1,3 +1,3 @@
 let qualquer ='legal'
 console.log(qualquer)
-console.log()
+console.log(typeof qualquer)
