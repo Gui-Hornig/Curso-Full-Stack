@@ -6,3 +6,8 @@ console.log("Sentenca de codigo");
     console.log('Mundo');
     }
 }
+
+
+var a = 3; //variavel "a" recebe "=" o valor 3
+let b = 4;
+const c = 5;
