@@ -28,3 +28,6 @@ console.log("Show" * 2)
 console.log(0.1 + 0.7)
 // console.log(10.toSring()) 
 console.log((10.345).toFixed(2))
+
+const nome = guilherme
+console.log(nome.toString(2)) 
