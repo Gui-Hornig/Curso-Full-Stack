@@ -18,3 +18,8 @@ console.log(typeof media)
 console.log(typeof Number) /* Com N maiusculo é ma função
                             * com n minusculo é um tipo de dado quando tem um valor numéricos, 
                             *tanto valor innteiro quanto com ponto flutuante.*/
+
+
+// ALGUNS CUIDADDOS COM NÚMEROS
+
+console.log( 7/ 0 )
