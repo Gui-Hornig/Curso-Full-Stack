@@ -6,4 +6,4 @@ console.log(escola.charCodeAt(3)); // retorna o código relacionado a tabela UNI
 console.log(escola.indexOf('3'));
 
 console.log(escola.substring(1));
-escola.log
+console.log(escola.substring(0, 3))
