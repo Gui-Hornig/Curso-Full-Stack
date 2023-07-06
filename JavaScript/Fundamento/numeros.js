@@ -26,3 +26,4 @@ console.log( 7 / 0 ) // valor dividido por um número muito pequeno, ele acaba a
 console.log("10" / 2) // porque JS é fracamente tipado ele consegue dividir em outras linguagens (Ex: Java) não seria possível
 console.log("Show" * 2)
 console.log(0.1 + 0.7)
+console.log(10.toSring()) 
