@@ -1,6 +1,6 @@
 const nome = 'Guilherme';
 const concatenacao = 'ola '+ nome + '!';
-const templete = '
+const templete = `
     Olá
-    ${nome}!';
+    ${nome}!`;
 console.log(concatenacao, templete);
