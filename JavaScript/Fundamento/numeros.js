@@ -5,4 +5,5 @@ console.log(peso1, peso2);
 console.log(Number.isInteger(peso1));
 console.log(Number.isInteger(peso2));
 
-Const avaliacao1 = 9.
+const avaliacao1 = 9.871
+const avaliacao2
