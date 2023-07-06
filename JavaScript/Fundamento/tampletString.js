@@ -4,3 +4,6 @@ const templete = `
     Olá
     ${nome}!`;
 console.log(concatenacao, templete);
+
+// explessoes...
+console.log(` 1 + 1 = ${1+1}`);
