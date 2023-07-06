@@ -24,3 +24,4 @@ console.log(typeof Number) /* Com N maiusculo é ma função
 
 console.log( 7 / 0 ) // valor dividido por um número muito pequeno, ele acaba aumentando.
 console.log("10" / 2) // porque JS é fracamente tipado ele consegue dividir em outras linguagens (Ex: Java) não seria possível
+console.log("Show" * 2)
