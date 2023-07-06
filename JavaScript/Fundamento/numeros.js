@@ -1,2 +1,3 @@
 const peso1 = 1.0
-const
+const peso2= Number('2.0')
+
