@@ -15,4 +15,6 @@ const media = total / (peso1 + peso2);
 console.log(media.toFixed(2));// define a quantidade de casas decimais
 console.log(media.toString(2)); // passando o valor "2" para "toString" converte em binario
 console.log(typeof media)
-console.log(typeof Number) // Com N maiusculo é ma função e com n minusculo é um tipo de dado
+console.log(typeof Number) /* Com N maiusculo é ma função
+                            * com n minusculo é um tipo de dado quando tem um valor numéricos, 
+                            *tanto valor innteiro quanto com ponto flutuante.*/
