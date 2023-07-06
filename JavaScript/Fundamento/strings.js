@@ -1,3 +1,3 @@
 const escola = "Cod3r"
 
-c
+console.log(escola.charAt(4))
