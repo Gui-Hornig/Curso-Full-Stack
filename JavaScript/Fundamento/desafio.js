@@ -48,4 +48,9 @@ for (let i = 0; i < n; i++) {
     zer
     const positive = posCount / n;
     const negative = negCount / n;
-    const zeros = zerCount / n;
+    
+    const df = new Intl.NumberFormat("en-US", {
+  
+        minimumFractionDigits
+      
+        minimumconst zeros = zerCount / n;
