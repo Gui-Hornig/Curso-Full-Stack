@@ -16,6 +16,7 @@ console.log(valores);
 
 console.log(valores.pop()); // retorna retira ultimo valor do array
 delete valores [0]; // deleta o valor do array
+delete valores [1]; // deleta o valor do array
 console.log(valores);
 
 console.log(typeof valores);
