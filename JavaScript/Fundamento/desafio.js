@@ -54,3 +54,13 @@ for (let i = 0; i < n; i++) {
         minimumFractionDigits
       
         minimumconst zeros = zerCount / n;
+
+        minimumFractionDigits: 6,
+  
+  maximumFraction
+
+  maximum
+
+ 
+maximumFractionDigits: 6
+});
