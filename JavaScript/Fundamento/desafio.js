@@ -33,3 +33,7 @@ for (let i = 0; i < n; i++) {
     negCount++;
 
     neg
+    else {
+        zerCount++;
+      }
+    }
