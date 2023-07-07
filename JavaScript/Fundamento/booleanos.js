@@ -26,3 +26,6 @@ console.log(!!(isAtivo = false))
 
 console.log('Para finalizar...')
 console.log(!!('' || null || 0 || '')) 
+
+let nome = 'Lucas'
+console.log(nome || 'Desconhecido') //  "||" expressao " ou " mostra uma coisa OU outra
