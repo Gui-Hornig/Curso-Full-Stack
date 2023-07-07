@@ -41,3 +41,11 @@ for (let i = 0; i < n; i++) {
   }
 
     zerCount++;
+    zerCount++;
+
+    zerCount
+
+    zer
+    const positive = posCount / n;
+    const negative = negCount / n;
+    const zeros = zerCount / n;
