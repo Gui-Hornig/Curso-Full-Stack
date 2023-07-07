@@ -23,4 +23,7 @@ for (let i = 0; i < n; i++) {
   posCount++;
  
 
-    posCount
+    posCount 
+    else if (arr[i] < 0) {
+        negCount++;
+      }
