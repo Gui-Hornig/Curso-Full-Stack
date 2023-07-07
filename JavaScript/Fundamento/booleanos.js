@@ -23,3 +23,6 @@ console.log(!!'')
 console.log(!!null)
 console.log(!! undefined)
 console.log(!!(isAtivo = false))
+
+console.log('Para finalizar...')
+console.log(!!('' || null || 0 || '')) 
