@@ -20,3 +20,7 @@ for (let i = 0; i < n; i++) {
     if (arr[i] > 0) {
     posCount++;
   } 
+  posCount++;
+ 
+
+    posCount
