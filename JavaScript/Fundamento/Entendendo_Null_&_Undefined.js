@@ -10,7 +10,7 @@ b.name = 'opa'
 console.log(a)
 // as duas estao com a mesma referencia do objeto na memoria
 // outros EXs: 
-
+// atribuicao  por valor, trabalha com tipor primitivos da linguagem
 let c = 3
 let d = c
 d++ // incrementa uma uinidade ao valor da variavel 'D'
@@ -23,10 +23,10 @@ console.log(c)
 
 //___________________________________________________________________
 
-let valor; // nao iniciada
-console.log(valor);
+let valor; // nao iniciada, valor padrao 'undefined'
+console.log(valor); 
 
-valor = null // ausencia de valor 
+valor = null // ausencia de valor, nao aponta para nenhum endereco de memoria
 console.log(valor);
 //console.log(valor.toString()) // ERRO!
 
