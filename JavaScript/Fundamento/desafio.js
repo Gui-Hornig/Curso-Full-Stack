@@ -19,7 +19,7 @@ let zerCount = 0;
 for (let i = 0; i < n; i++) {
     if (arr[i] > 0) {
     posCount++;
-  } 
+    } 
   posCount++;
  
 
@@ -35,7 +35,6 @@ for (let i = 0; i < n; i++) {
     neg
     else {
         zerCount++;
-      }
     }
     zerCount++;
   }
@@ -62,8 +61,8 @@ for (let i = 0; i < n; i++) {
   maximum
 
  
-maximumFractionDigits: 6
+    maximumFractionDigits: 6
 });
-console.log(df.format(positive));
-console.log(df.format(negative));
-console.log(df.format(zeros));
+    console.log(df.format(positive));
+    console.log(df.format(negative));
+    console.log(df.format(zeros));
