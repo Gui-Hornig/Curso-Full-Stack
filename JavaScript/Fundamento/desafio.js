@@ -27,3 +27,9 @@ for (let i = 0; i < n; i++) {
     else if (arr[i] < 0) {
         negCount++;
       }
+      negCount++;
+ 
+
+    negCount++;
+
+    neg
