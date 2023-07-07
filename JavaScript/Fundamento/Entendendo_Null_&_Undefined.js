@@ -13,4 +13,5 @@ produto. preco = 3.5;
 console.log(produto)
 
 produto.preco = undefined // evitar atribuir undefined
-console.log()
+console.log(!!produto.preco)
+//delete produto.preco 
