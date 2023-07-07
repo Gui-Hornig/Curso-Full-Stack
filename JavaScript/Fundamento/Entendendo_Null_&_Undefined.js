@@ -28,18 +28,21 @@ console.log(valor);
 
 valor = null // ausencia de valor, nao aponta para nenhum endereco de memoria
 console.log(valor);
+// caso queira zerar o valor da variavel usar 'null'
 //console.log(valor.toString()) // ERRO!
 
 const produto = {};
 console.log(produto.preco);
 console.log(produto);
 
-produto. preco = 3.5;
-console.log(produto)
+produto. preco = 3.50;
+console.log(produto);
 
 produto.preco = undefined // evitar atribuir undefined
-console.log(!!produto.preco)
+console.log(!!produto.preco);
 //delete produto.preco 
-console.log(produto)
+console.log(produto);
 
 produto.preco = null // sem preco
+console.log(!!produto.preco);
+console.log(produto)
