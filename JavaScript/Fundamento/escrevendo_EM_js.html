@@ -15,8 +15,9 @@
     <h1>Contador de letras</h1>
     <script>
         var nome = window.prompt('Qual seu nome?')
-        document.write(`Seu nome tem ${nome.length} letras. `)
-        document.write(`Seu nome em maiusculas e: &{nome}`)
+        document.write(`Ola, <strong>${nome} </strong>>! Seu nome tem ${nome.length} letras. <br/> `)
+        document.write(`Seu nome em maiusculas e: ${nome.toUpperCase(nome)} <br/>`)
+        document.write(`Seu nome em minusculo fica: ${nome.toLowerCase(nome)}`)
     </script>
 </body>
 </html>
