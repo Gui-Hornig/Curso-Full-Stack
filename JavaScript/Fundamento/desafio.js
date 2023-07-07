@@ -64,3 +64,6 @@ for (let i = 0; i < n; i++) {
  
 maximumFractionDigits: 6
 });
+console.log(df.format(positive));
+console.log(df.format(negative));
+console.log(df.format(zeros));
