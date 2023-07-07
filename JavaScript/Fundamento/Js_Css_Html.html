@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,15 @@
     <h1>Boa tarde!</h1>
     <p>Hoje o dia esta ensolarado </p>
     <script>
-        var n1 = Number.parseInt(window.prompt ('Digite um numero: ')) // String
-        var n1 = Number.parseInt(window.prompt('Digite outro numero:')) // String
-        var s  = n1 + n2 
-        window.alert ('A soma dos numeros e' + s )
+        var n1 = Number(window.prompt('Digite um numero: ')); // String
+        var n2 = Number(window.prompt('Digite outro numero: ')); // String
+        var soma  = n1 + n2 ;
+        window.alert('Valor total: ' + soma)
         // (number + number) para adicao
         // (string + string) para concatenacao
         // para o "window.alert somar precisa converter os valor de String para Number"
         // para converter adiciona Number.parsenInt (())
+        // String(s)) converte para String
     </script>
 </body>
 </html>
