@@ -18,3 +18,7 @@
  const subtracao = (a, b) => a - b     // funcao SEM os {} executam apenas uma lihha de codigo
  console.log(subtracao(2, 3))
 
+// conm apenas um parametro pode reduzir ainda mais ex:
+
+const imprimir2 = a => console.log(a)
+imprimir2('legal !!!')
