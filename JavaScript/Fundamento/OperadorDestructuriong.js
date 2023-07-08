@@ -7,9 +7,9 @@ const pessoa = {
         rua: 'Rua ABC',
         numero: 1000,
         cep:830201,
-        complemento: {
-            Ap: 12
-        }
+        complemento: 0,
+        Ap: 12
+        
     }
 }
 
@@ -22,5 +22,10 @@ console.log (n, i)
 const { sobrenome, bemHumorado = true } = pessoa
 console.log(sobrenome, bemHumorado)
 
-const {rua: r, cep: c, Ap:ap } = pessoa
-console.log(r, c, ap)
+const { endereco: {rua: r, cep: c, Ap: b }} = pessoa
+console.log(r, c, b)
+
+const {endereco: { Ap } } = pessoa 
+console.log(Ap)
+
+
