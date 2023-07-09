@@ -12,7 +12,7 @@ const imprimirResultado = function (nota){
     } else if (nota.entre(0, 3.99)){
         console.log('Reprovado')
     } else{
-        console.log ('Nota Invalida')
+        console.log ('De tamanha burrice nem NOTA vc tem! ')
     }
     
     console.log('FIM')
