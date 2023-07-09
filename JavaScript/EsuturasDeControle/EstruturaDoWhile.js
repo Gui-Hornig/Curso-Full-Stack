@@ -8,4 +8,5 @@ let opcao = 0
     opcao = getInteiroAleatorioEntre ( -1, 10)
     console.log(`Opcao Escolhida foi ${opcao}.`)
 } while (opcao != -1)
+
 console.log('ate a proxima!')
