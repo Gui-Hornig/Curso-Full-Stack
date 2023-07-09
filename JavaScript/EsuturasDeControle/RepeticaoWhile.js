@@ -10,3 +10,6 @@ while (opcao != -1) {
     console.log(`Opcao Escolhida foi ${opcao}.`)
 }
 console.log('ate a proxima!')
+
+// Baseada em uma expressao True ou False que enquanto fo True continua e quando for False ela sai do laço
+// E propria para executar laço com uma quantidade indeterminada de repetições
