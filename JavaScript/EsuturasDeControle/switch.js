@@ -3,7 +3,7 @@ const imprimirResultado = function (nota) {
         case 10:                     // Se for 10 ou 9 ela executa essa senteca de codigo
         case 9:                      //   switch e feito para multiplas selecoes a expresao retorna VALOR (9, 1, 30)              
             console.log('Quadro de Honra')
-            break
+            break // break e importante pois ele intende que finalizou e pode sair sem o Break ele executria todos os codigos abaixo
         case 8:
         case 7: 
             console.log('Aprovado')
