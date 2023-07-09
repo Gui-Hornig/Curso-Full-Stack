@@ -8,7 +8,7 @@ function teste1 (num){
 // teste1(8)
 
 function teste2 (num) {
-    if (num > 7); {
+    if (num > 7); { // cuidado com ;, nao usar com as estruturas de controle 
         console.log(num)
     }
 }
