@@ -22,5 +22,5 @@ imprimirNomeGritado(obj)
 
 // 'try' e um bloco de codigo que colocamos em codigos que possivelmente podem gerar erro.
 // Caso gere esse erro "esperado" o  codigo cai para o bloco 'cath', assim vc pode exibr uma msg ao usuario
-
-console.log(new Date )
+// nao mostre para o usuario detalhes de infra, codigos, msg gigantes 
+// sempre mosrar uma msg generica de erro ou ate gerar um resh
