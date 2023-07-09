@@ -4,8 +4,8 @@ function teste1 (num){
         console.log('Final')
 }
 
-// teste1(6)
-// teste1(8)
+ teste1(6)
+ teste1(8)
 
 function teste2 (num) {
     if (num > 7); { // cuidado com ;, nao usar com as estruturas de controle 
