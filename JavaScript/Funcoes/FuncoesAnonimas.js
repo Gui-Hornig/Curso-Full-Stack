@@ -9,3 +9,11 @@ imprimirresultado(2, 4 , soma)
 imprimirresultado(2, 4 , function (x, y) {
     return x - y
 })
+imprimirresultado(2, 4 , (x, y) => x * y)
+
+const pessoa = {
+    falar: function () {
+        console.log('Opa!')
+    }
+}
+pessoa.falar()
