@@ -10,3 +10,5 @@ comparaComThis(obj)
 
 let comparaComArrow = param => console.log(this === param)
 comparaComArrow (global)
+comparaComArrow(module.exports)
+comparaComArrow(this)
