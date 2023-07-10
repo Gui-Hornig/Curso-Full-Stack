@@ -3,8 +3,9 @@ function getPreco(imposto = 0, moeda = 'R$') {
 }
 
 const produto = {
-    nome: 'Notebook'
+    nome: 'Notebook',
     preco: 4589,
     desc: 0.15,
     getPreco
 }
+console.log(getPreco())
