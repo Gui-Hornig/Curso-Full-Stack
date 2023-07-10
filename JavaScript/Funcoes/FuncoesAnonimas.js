@@ -5,3 +5,7 @@ const imprimirresultado = function (a, b, operacao = soma) {
     console.log(operacao(a, b))
 }
 imprimirresultado(3, 4)
+imprimirresultado(2, 4 , soma)
+imprimirresultado(2, 4 , function (x, y) {
+    return x - y
+})
