@@ -6,7 +6,6 @@
 const x = 'Global'
 
 function fora () {
-
     const x = 'local'
     function dentro () {
         return x 
