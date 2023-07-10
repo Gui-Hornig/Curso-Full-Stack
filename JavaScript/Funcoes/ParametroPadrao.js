@@ -6,3 +6,4 @@ function soma1(a, b, c) {
     return a + b + c
 }
 console.log(soma1())
+console.log(soma1(), soma1(3), soma1(1, 2, 3))
