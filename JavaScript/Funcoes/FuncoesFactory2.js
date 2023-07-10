@@ -4,3 +4,4 @@ function criarProduto () {
         preco: 'R$12,00'
     } 
 }
+
