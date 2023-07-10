@@ -1,4 +1,5 @@
-// estrateria 1 para gerar valor padrao
+// estrateria 1 para gerar valor padrao 
+// ainda muito usada no JS
 function soma1(a, b, c) {
     a = a || 1
     b = b || 1
@@ -20,7 +21,7 @@ function soma2 (a, b, c){
 console.log (soma2())
 console.log (soma2(), soma2(3), soma2(1, 2, 3), soma2(0,0,0))
 
-//Valor padrao do Es2015
+//Valor padrao do Es2015 forma mais adequada e melhor para escrever  
 
 function soma3( a = 1, b = 1, c = 1) {
     return a + b + c
