@@ -9,7 +9,7 @@ imprimirresultado(2, 4 , soma)
 imprimirresultado(2, 4 , function (x, y) {
     return x - y
 })
-imprimirresultado(2, 4 , (x, y) => x * y)
+imprimirresultado(2, 4 , (x, y) => x * y) // funcao anonima Arrow (Reduzida)
 
 const pessoa = {
     falar: function () {
