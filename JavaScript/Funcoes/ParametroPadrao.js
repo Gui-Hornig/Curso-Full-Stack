@@ -6,4 +6,18 @@ function soma1(a, b, c) {
     return a + b + c
 }
 console.log(soma1())
-console.log(soma1(), soma1(3), soma1(1, 2, 3))
+console.log(soma1(), soma1(3), soma1(1, 2, 3), soma1(0, 0 , 0  ))
+
+
+//Estratgia 2, 3 e  para gerar um valor padrao
+
+function soma2 (a, b, c){
+    a = a !== undefined ? a : 1
+    b = 1 in arguments ? a : 1
+    c = isNaN(c) ? 1 : c 
+    return a + b + c
+}
+console.log (soma2())
+console.log (soma2(), soma2(3), soma2(1, 2, 3), soma2(0,0,0))
+
+//Valor padrao do Es2015
