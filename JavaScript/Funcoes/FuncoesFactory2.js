@@ -1,7 +1,10 @@
-function criarProduto () {
+function criarProduto (nome, preco) {
     return {
-        nome: 'refri de cola',
-        preco: 'R$12,00'
+        nome, 
+        preco,
+        desconto: 0.1
     } 
 }
 
+console.log(criarProduto('Notebok', 2199.49))
+console.log(criarProduto('ipad', 1199.49))
