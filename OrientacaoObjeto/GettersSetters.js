@@ -8,4 +8,4 @@ const sequencia = {
     }
 }
 
-console.log (sequencia())
+console.log (sequencia.valor, sequencia.valor, sequencia.valor)
