@@ -11,7 +11,7 @@ delete produto['marca do produto']
 console.log(produto)
 
 const carro = {
-    modelo = 'A4',
+    modelo : 'A4',
     valor : 89000,
     proprietario: {
         nome : 'Raul',
@@ -34,8 +34,7 @@ carro['proprietario'] ['endereco'] ['logradouro'] = 'av Gigante'
 console.log(carro)
 
 delete carro.condutores 
-delete carro.precoprietario.endereco
+delete carro.valor.proprietario.endereco
 delete carro.calculcarValorSeguro
 console.log(carro)
 console.log(carro.condutores)
-console.log()
