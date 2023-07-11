@@ -29,3 +29,6 @@ const carro = {
         // ...
     }
 }
+ // Maneiras de acessar 
+carro.proprietario.endereco.numero = 1000 
+carro['proprietario'] ['endereco'] ['logradouro'] = 'av Gigante'
