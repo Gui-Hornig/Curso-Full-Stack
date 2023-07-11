@@ -1,0 +1,3 @@
+const ferrari = {
+    modelo: 
+}
