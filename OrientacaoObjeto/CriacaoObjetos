@@ -1,1 +1,19 @@
 // Usando a notacao Literal
+
+const obj1 = {}
+console.log(obj1)
+
+// Object em Js
+
+console.log (typeof Object, typeof new Object)
+const Obj2 = new Object
+console.log (Obj2)
+
+// Funcoes construtoras 
+
+function Produto (nome, preco, desc) {
+    this.nome = nome
+    this.getPrecoComDesconto () => {
+        return preco
+    }
+}
