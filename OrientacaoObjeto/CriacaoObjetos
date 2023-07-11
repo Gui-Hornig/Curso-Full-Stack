@@ -23,3 +23,14 @@ const p2 = new Produto ('Notebook', 2998.99, 0.25)
 console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto())
 
 //Funcao Factory
+
+function criarFuncionario( nome, salarioBase, faltas) {
+    return {
+        nome,
+        salarioBase,
+        faltas,
+        getSalario () {
+            return (salarioBase / 30) * 
+        }
+    }
+}
