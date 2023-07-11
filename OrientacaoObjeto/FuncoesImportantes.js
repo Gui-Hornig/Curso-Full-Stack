@@ -23,3 +23,5 @@ console.log(pessoa.dataNascimento)
 console.log(Object.keys(pessoa))
 
 //Object.assign (ECMAScript 2015)
+
+const dest = {a: 1}
