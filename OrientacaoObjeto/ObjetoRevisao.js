@@ -34,5 +34,8 @@ carro['proprietario'] ['endereco'] ['logradouro'] = 'av Gigante'
 console.log(carro)
 
 delete carro.condutores 
-delete carro.peroprietario.endereco
-delete carro.
+delete carro.precoprietario.endereco
+delete carro.calculcarValorSeguro
+console.log(carro)
+console.log(carro.condutores)
+console.log()
