@@ -25,10 +25,14 @@ const carro = {
         nome: 'Junior',
         idade: 19
     }]
-    calcularValorSeguro: function () {
+    // calcularValorSeguro: function () {
         // ...
     }
-}
  // Maneiras de acessar 
 carro.proprietario.endereco.numero = 1000 
 carro['proprietario'] ['endereco'] ['logradouro'] = 'av Gigante'
+console.log(carro)
+
+delete carro.condutores 
+delete carro.peroprietario.endereco
+delete carro.
