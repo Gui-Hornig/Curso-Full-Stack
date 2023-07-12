@@ -20,3 +20,11 @@ console.log(aprovados[8] === undefined)
 console.log(aprovados)
 aprovados.sort()
 console.log(aprovados)
+
+delete aprovados[1]
+console.log(aprovados[1])
+console.log(aprovados[2])
+
+aprovados = ['Bia', 'Carlos', 'Ana']
+aprovados.splice(1, 2, 'Elemento1', 'Elemento2')
+console.log(aprovados)
