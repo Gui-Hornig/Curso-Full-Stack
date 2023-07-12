@@ -17,5 +17,5 @@ console.log(Object.keys(filha2))
 
 for(let key in filha2) {
     filha2.hasOwnProperty(key) ?
-        console.log(key) :  console.log(`Por heanca ${}`)
+        console.log(key) :  console.log(`Por heanca ${key}`)
  }
