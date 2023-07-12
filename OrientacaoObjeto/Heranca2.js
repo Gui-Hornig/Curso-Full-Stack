@@ -26,5 +26,10 @@ const ferrari = {
     velMax: 324 // Shadowing (sombreamento)
 }
 const volvo = {
-    modelo: 'V40'
+    modelo: 'V40',
+    status(){
+        return`${this.modelo}: ${super.status()}`
+    }
 }
+
+o
