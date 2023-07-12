@@ -33,3 +33,6 @@ const volvo = {
 }
 
 Object.setPrototypeOf(ferrari, carro)
+Object.setPrototypeOf(ferrari, carro)
+
+console.log(ferrari)
