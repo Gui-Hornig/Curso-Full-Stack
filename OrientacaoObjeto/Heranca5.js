@@ -19,4 +19,5 @@ console.log(['a', 'b', 'c', 'd', 'e'].first())
 String.prototype.toString = function () {
     return 'lascou tudo'
 }
-console.log('Guilherme Hornig')
+console.log('Guilherme Hornig'.reverce())
+
