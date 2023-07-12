@@ -20,3 +20,8 @@ const = carro = {
         return  `${this.velAtual}Km/h de ${this.velMax}Km/h`
     }
 }
+
+const ferrari = {
+    mdello: 'F40',
+    velMax: 324 // Shadowing (sombreamento)
+}
