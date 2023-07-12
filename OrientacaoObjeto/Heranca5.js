@@ -12,3 +12,11 @@ Array.prototype.first = function () {
 }
 console.log([1, 2, 3, 4, 5, 6, 7].first())
 console.log(['a', 'b', 'c', 'd', 'e'].first())
+
+
+//Cuidado
+
+String.prototype.toString = function () {
+    return 'lascou tudo'
+}
+console.log('Guilherme Hornig')
