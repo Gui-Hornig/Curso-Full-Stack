@@ -25,3 +25,6 @@ const ferrari = {
     mdello: 'F40',
     velMax: 324 // Shadowing (sombreamento)
 }
+const volvo = {
+    modelo: 'V40'
+}
