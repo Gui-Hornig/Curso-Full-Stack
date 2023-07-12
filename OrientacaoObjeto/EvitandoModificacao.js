@@ -11,5 +11,6 @@ produto.descricao = 'Borracha escolar branca'
 delete produto.tag
 console.log(produto)
 
-//Object.seal
-const pessoa = Object
+//Object.seal Nao pode adicionar atributos nem excluir mas pode modificar os atributos do objeto
+const pessoa = {nome:  'juliana', idade: 35}
+Object.seal(pessoa)
