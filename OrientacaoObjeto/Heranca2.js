@@ -32,4 +32,4 @@ const volvo = {
     }
 }
 
-o
+Object.setPrototypeOf(ferrari, carro)
