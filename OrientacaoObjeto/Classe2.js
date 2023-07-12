@@ -12,5 +12,10 @@ class Pai extends Avo {
 }
 
 class Filho extends Pai {
-    
+    constructor () {
+        super ('Silva')
+    }
 }
+
+const filho = new Filho
+console.log(Filho)
