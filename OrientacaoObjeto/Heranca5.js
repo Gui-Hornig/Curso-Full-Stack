@@ -7,4 +7,8 @@ String.prototype.reverce = function () {
 }
 console.log('Guilherme hornig'. reverce())
 
-Array.prototype
+Array.prototype.first = function () {
+    return this [0]
+}
+console.log([1, 2, 3, 4, 5, 6, 7].first())
+console.log(['a', 'b', 'c', 'd', 'e'].first())
