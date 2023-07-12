@@ -10,3 +10,6 @@ produto.nome = 'Borracha'
 produto.descricao = 'Borracha escolar branca'
 delete produto.tag
 console.log(produto)
+
+//Object.seal
+const pessoa = Object
