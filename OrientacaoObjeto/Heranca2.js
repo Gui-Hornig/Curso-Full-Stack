@@ -1,6 +1,6 @@
 // Cadeia de prootipos (prototype chain)
 
-Object.prototype.attr0 = '0'
+Object.prototype.attr0 = '0' // Nao fazer essa manipulacao
 const avo = {attr1 : 'A'}
 const pai = {__proto__: avo, attr2: 'B', attr3: '3'}
 const filho = {__photo__: pai, attr3: 'C'}
