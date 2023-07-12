@@ -5,3 +5,10 @@ const obj1 = new MeuObjeto
 const obj2 = new MeuObjeto
 console.log(obj1.__proto__ === obj2.__proto__)
 console.log(obj2.__proto__ === obj1.__proto__)
+
+MeuObjeto.prototype.nome = 'Anoniomo'
+MeuObjeto.prototype.falar = function() {
+    console.log (`Bom dia! Meu nome e ${this.nome}!`)
+}
+
+obj1.falar()
