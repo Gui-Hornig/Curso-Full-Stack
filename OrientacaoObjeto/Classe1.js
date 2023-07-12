@@ -11,18 +11,20 @@ class CicloFinanceiro {
         this.ano = ano
         this.Lancamento = []
     }
-}
 
-addLancamentos(...lancamentos) {
-    lancamentos.forEach(l => this.lancamentos.push(l))
-}
 
-sumario() {
-    let valorConsolidado = 0
-    this.lancamentos.forEach(l => {
-        valorConsolidado += l.valor
+    addLancamentos(...lancamentos) {
+         lancamentos.forEach(l => this.lancamentos.push(l))
+    }
+
+    sumario() {
+        let valorConsolidado = 0
+         this.lancamentos.forEach(l => {
+         valorConsolidado += l.valor
     })
-    return valorConsolidado
+
+        return valorConsolidado
+
+    }
+
 }
-
-
