@@ -13,4 +13,10 @@ console.log(produto)
 
 //Object.seal Nao pode adicionar atributos nem excluir mas pode modificar os atributos do objeto
 const pessoa = {nome:  'juliana', idade: 35}
-Object.seal(pessoa)
+Object.seal (pessoa)
+console.log ('Selado:', Object.isSealed(pessoa))
+
+pessoa.sobrenome = 'Silva'
+delete pessoa.nome
+pessoa.idade = 29
+console.log(pessoa)
