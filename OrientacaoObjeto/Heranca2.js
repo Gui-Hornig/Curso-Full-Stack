@@ -17,6 +17,6 @@ const = carro = {
         }
     },
     status(){
-        
+        return  `${this.velAtual}Km/h de ${this.velMax}Km/h`
     }
 }
