@@ -5,11 +5,11 @@ const escola  = [{
         nota: 8.1
     }, {
         nome: 'Ana',
-        notas: 9.3
+        nota: 9.3
     }]
 }, {
     nome : 'turma M2',
-    aluno: [{
+    alunos: [{
         nome: 'Rebeca',
         nota: 8.9
     }, {
