@@ -17,3 +17,9 @@ const escola  = [{
         nota: 7.3
     }]
 }]
+
+const getNotaDoAluno = aluno => aluno.nota
+const getNotasDaTurma = turma =>turma.alunos.map(getNotaDoAluno)
+
+const notas1 = escola.map(getNotasDaTurma)
+console.log(notas1)
