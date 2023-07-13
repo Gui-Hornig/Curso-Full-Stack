@@ -4,3 +4,10 @@ const alunos = [
 ]
 
 //Imperatvo
+let total1 = 0
+for (let i = 0; i < alunos.length; i++) {
+
+    total1 += alunos[i].notas
+}
+
+console.log(total1 / alunos.length)
