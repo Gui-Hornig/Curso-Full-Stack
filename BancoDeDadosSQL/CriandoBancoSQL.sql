@@ -15,3 +15,4 @@ primary key (id)
 
 use cadastroclientes;
 (id, nome, nascimento, sexo, peso, altura, nacionalidade)
+();
