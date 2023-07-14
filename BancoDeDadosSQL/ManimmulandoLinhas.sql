@@ -7,3 +7,6 @@ insert into cursos values
 ('4','PGP', 'Curso de PHP para Iniciantes', '40', '20','2010'),
 ('5','Jarva', 'Introducao a linguagem Java', '10', '29','2000'),
 ('6','MySQL', 'Banco de Dados MySQL', '30', '15','2016'),
+('7','Word', 'Curso completo Word', '40', '30','2016'),
+('8','Sapateado', 'Danca Ritimicas', '40', '30','2018'),
+('9','Cozinha Arabe', 'Aprenda a fazer Kibe', '40', '30','2018'),
