@@ -26,4 +26,7 @@ add codigo int first;
 alter table pessoas
 modify column profissao varchar(20) not null default '';
 
-/*AModificando o nome da Coluna, constrange e tipos primitivos */
+/* Modificando o NOME  da Coluna, constrange e tipos primitivos */
+
+alter table pessoas
+change column profissao prof varchar (20) not null default'';
