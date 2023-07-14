@@ -14,5 +14,7 @@ primary key (id)
 ) default charset = utf8
 
 use cadastroclientes;
+insert into pessoas
 (id, nome, nascimento, sexo, peso, altura, nacionalidade)
+values
 ('1', 'Godofrete', '1984-01-02', 'M', '7.8', '1.83', 'Brasil');
