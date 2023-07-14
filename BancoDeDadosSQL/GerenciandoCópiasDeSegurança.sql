@@ -1,1 +1,1 @@
- 
+ drop database cadastroclientes; 
