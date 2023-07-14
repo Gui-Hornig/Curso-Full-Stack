@@ -14,3 +14,4 @@ primary key (id)
 ) default charset = utf8
 
 use cadastroclientes;
+(id, nome, nascimento, sexo, peso, altura, nacionalidade)
