@@ -22,3 +22,4 @@ values
 ('1', 'Godofrete', '1984-01-02', 'M', '7.8', '1.83', 'Brasil');
 
 select * from pessoas; /*Selecione tudo de pessoas*/ 
+
