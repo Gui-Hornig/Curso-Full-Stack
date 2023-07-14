@@ -47,3 +47,6 @@ carga int unsigned, /*'Sem sinal' economiza um byte para cada registro*/
 totaulas int, 
 ano year default '2016'
 ) default charset = utf8; /**/
+
+alter table cursos
+add column idcurso int first;
