@@ -30,3 +30,20 @@ modify column profissao varchar(20) not null default '';
 
 alter table pessoas
 change column profissao prof varchar (20) not null default'';
+
+
+/*Renomear a TABELA INTEIRA*/
+
+alter table pessoas
+rename to cadastroclientes
+
+/* NOVA TABELA */
+
+
+create table if not exists cursos (
+nome varchar (30) not null unique, /*Unique nao deixas 2 cursos com o mesmo nome iguais*/
+descricao text, /*tesxtos longos*/
+carga int unsigned, /*'Sem sinal' economiza um byte para cada registro*/
+totaulas int, 
+ano year default '2016'
+) default charset = utf8; /**/
