@@ -25,5 +25,12 @@ insert into pessoas
 values
 ('1', 'Godofrete', '1984-01-02', 'M', '7.8', '1.83', 'Brasil');
 
-select * from pessoas; /*Selecione tudo de pessoas*/ 
+
+use cadastroclientes;
+insert into pessoas
+(id, nome, nascimento, sexo, peso, altura, nacionalidade) /*Se for inserir dados e a ordem for exatamente  mesma cadastrada no bano, nao precisa esscrever os campos */ 
+values
+(default, 'Creusa', '1920-12-30', 'F', '50.0', '1.65', default);
+
+select * from pessoas; 
 
