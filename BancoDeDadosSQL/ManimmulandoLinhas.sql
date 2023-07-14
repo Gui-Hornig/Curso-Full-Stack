@@ -26,3 +26,19 @@ update cursos
 set nome ='Java', carga = '40', ano = '2015'
 where idcurso ='5'
 limit 1; /*Limita a uma linha modificada*/
+
+ /*Toma cuidado ao utiliza  o Update pois pode altera todos os bancos*/
+update cursos
+set carga = '800', ano = '2050'
+where ano ='2018'
+
+select*from cursos;
+
+/*APAGAR LINHAS */
+
+delete from cursos
+where idcurso ='8';
+
+delete from cursos /*apagando multiplas linhas*/
+where ano ='2018'
+limit 2;
