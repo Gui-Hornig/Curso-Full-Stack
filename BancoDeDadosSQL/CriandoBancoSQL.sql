@@ -15,4 +15,4 @@ primary key (id)
 
 use cadastroclientes;
 (id, nome, nascimento, sexo, peso, altura, nacionalidade)
-();
+('1', 'Godofrete', '1984-01-02', 'M', '7.8', '1.83', 'Brasil');
