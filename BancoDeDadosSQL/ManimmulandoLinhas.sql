@@ -42,3 +42,7 @@ where idcurso ='8';
 delete from cursos /*apagando multiplas linhas*/
 where ano ='2018'
 limit 2;
+
+truncate cursos;
+
+select*from cursos; /*Remover todas as linhas da tabela*/
