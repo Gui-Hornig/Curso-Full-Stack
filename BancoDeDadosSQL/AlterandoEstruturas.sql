@@ -1,0 +1,3 @@
+/*Alterando colunas*/
+
+desc pessoas;
