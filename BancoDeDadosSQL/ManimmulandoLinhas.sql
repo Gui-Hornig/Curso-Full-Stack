@@ -11,3 +11,9 @@ insert into cursos values
 ('8','Sapateado', 'Danca Ritimicas', '40', '30','2018'),
 ('9','Cozinha Arabe', 'Aprenda a fazer Kibe', '40', '30','2018'),
 ('10','Youtube', 'Gerar polemica e ganhar inscritos', '5', '2','2018');
+
+/*Alerar, manipula uma linha da tabela*/
+
+update cursos
+set nome = 'HTML5'
+where idcurso ='1';
