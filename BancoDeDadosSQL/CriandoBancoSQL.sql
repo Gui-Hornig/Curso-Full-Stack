@@ -1,1 +1,2 @@
 create database cadastroclientes
+default character set utf8
