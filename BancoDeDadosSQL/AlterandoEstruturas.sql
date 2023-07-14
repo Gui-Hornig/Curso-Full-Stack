@@ -16,6 +16,6 @@ alter table pessoas
 add column profissao varchar(10) after nome;
 
 
-
+/* Adicionando como primeiro campo*/
 alter table pessoas
-add column codigo int first;
+add codigo int first;
