@@ -9,3 +9,5 @@ add column profissao varchar(10);
 
 alter table pessoas
 drop column profissao;
+
+/*Adicionando colunas "After" depois de alguma que vc escolha*/
