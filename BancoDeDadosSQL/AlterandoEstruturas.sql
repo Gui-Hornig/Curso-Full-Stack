@@ -19,3 +19,9 @@ add column profissao varchar(10) after nome;
 /* Adicionando como primeiro campo*/
 alter table pessoas
 add codigo int first;
+
+
+/*Alterando a estrutura da definicao*/
+
+alter table pessoas
+modify column profissao varchar(20) not null default '';
