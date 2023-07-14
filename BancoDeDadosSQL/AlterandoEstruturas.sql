@@ -53,3 +53,12 @@ add column idcurso int first;
 
 alter table cursos
 add primary key (idcurso);
+
+describe cursos;
+
+/*APAGAR TABELAS INTEIRAS */
+
+drop table cursos;
+
+/*APAGAR COLUNAS */
+alter table drop  
