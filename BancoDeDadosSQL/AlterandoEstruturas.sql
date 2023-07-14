@@ -58,7 +58,7 @@ describe cursos;
 
 /*APAGAR TABELAS INTEIRAS */
 
-drop table cursos;
+drop table if exists cursos;
 
 /*APAGAR COLUNAS */
 alter table drop  
