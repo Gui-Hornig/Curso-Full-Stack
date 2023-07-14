@@ -40,3 +40,10 @@ insert into pessoas values
 (default, 'Adalgiza', '1930-11-3', 'F', '63.0', '1.75', 'Irlanda');
 
 select*from pessoas
+
+/*Maneira para adicinar varios dados ao mesmo tempo*/ 
+
+insert into pessoas values
+(default, 'Ana', '1975-12-22', 'F', '52.3', '1.45', 'EUA'),
+(default, 'Pedro', '2000-07-15', 'M', '70.9', '1.45', 'Brasil'),
+(default, 'Maria', '1999-05-30', 'F', '75.9', '1.70', 'Portugal');
