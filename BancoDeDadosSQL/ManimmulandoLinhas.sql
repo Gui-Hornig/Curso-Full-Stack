@@ -10,3 +10,4 @@ insert into cursos values
 ('7','Word', 'Curso completo Word', '40', '30','2016'),
 ('8','Sapateado', 'Danca Ritimicas', '40', '30','2018'),
 ('9','Cozinha Arabe', 'Aprenda a fazer Kibe', '40', '30','2018'),
+('10','Youtube', 'Gerar polemica e ganhar inscritos', '5', '2','2018');
