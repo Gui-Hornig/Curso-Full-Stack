@@ -12,3 +12,5 @@ altura decimal(3,2),
 nacionalidade varchar (20)  default 'Brasil',
 primary key (id)
 ) default charset = utf8
+
+use cadastroclientes;
