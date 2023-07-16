@@ -26,3 +26,9 @@ order by nome;
 select nome, descricao, ano from cursos
 where ano <= 2015
 order by nome;
+
+
+/* selecione todas as colunas ta tabela cursos onde o ano esteja entre 2014 e 2016
+ */
+
+ selec
