@@ -28,3 +28,5 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
         INSERT INTO `amigos` (`id`, `nome`, `sexo`, `telefone`) VALUES (NULL, 'Joese', 'M', '3333-4444'), (NULL, 'Ana', 'F', '1111-2222');
 
         SELECT * FROM `amigos`
+
+        UPDATE `amigos` SET `telefone` = '1111-2222' WHERE `amigos`.`id` = 2;
