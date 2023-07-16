@@ -7,3 +7,5 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
       PRIMARY KEY (`id`),
        UNIQUE KEY `nome` (`nome`)
        ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci |
+
+       /**/
