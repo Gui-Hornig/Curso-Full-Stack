@@ -18,3 +18,4 @@ order by nacionalidade;
 select count(*) from cursos where cargas > 40; /*O operador 'count' conta os registros*/
 
 select max(carga) from cursos; /*O operados (MAX) seleciona o MAIOR registro*/
+select mas(totaulas) from cursos where ano = '2016';
