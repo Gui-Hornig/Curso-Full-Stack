@@ -41,7 +41,8 @@ select nome, ano from cursos
 where ano in (2014, 2016)
 order by ano;
 
-/*selecione a tabela cursos onde CARGA seja > (MAIOR) que 35 e TOTAULAS seja < (menor) que 30*/
+/*selecione a tabela cursos onde CARGA seja > (MAIOR) que 35 e(AND) TOTAULAS seja < (menor) que 30*/
+/*Caso utilize o (OR) o SQL retorna qualquer um dos dois sendo TRUE, ja no (AND) os dois parametro preciso ser TRUE para ele retornar*/
 
 select * from cursos
 where carga > 35 and totaulas < 30;
