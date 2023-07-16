@@ -9,3 +9,7 @@ order by nome desc; /*Organiza em ordem alfabetica (caso adicione o "DESC" ele o
 /*Caso mude a ordem dos nomes o SQL retorna como vc descreveu*/
 select nome, carga, ano from cursos
 order by nome;
+
+
+select nome, carga, ano from cursos
+order by ano, nome; /*ordena primeiro por ANO e depois por NOME(alfabetico) */
