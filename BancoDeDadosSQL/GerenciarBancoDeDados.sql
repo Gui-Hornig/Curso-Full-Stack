@@ -25,3 +25,4 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
         ALTER TABLE `amigos` DROP `idade`;
 
         INSERT INTO `amigos` (`id`, `nome`, `sexo`, `telefone`) VALUES (NULL, 'Maria', 'F', '2222-3333'), (NULL, 'Joao', 'M', '2222-3333');
+        INSERT INTO `amigos` (`id`, `nome`, `sexo`, `telefone`) VALUES (NULL, 'Joese', 'M', '3333-4444'), (NULL, 'Ana', 'F', '1111-2222');
