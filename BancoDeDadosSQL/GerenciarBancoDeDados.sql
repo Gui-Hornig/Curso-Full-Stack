@@ -30,3 +30,5 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
         SELECT * FROM `amigos`
 
         UPDATE `amigos` SET `telefone` = '1111-2222' WHERE `amigos`.`id` = 2;
+
+        DELETE FROM amigos WHERE `amigos`.`id` = 4
