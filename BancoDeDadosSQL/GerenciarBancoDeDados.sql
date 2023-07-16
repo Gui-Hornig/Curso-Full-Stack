@@ -13,3 +13,7 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
        show create database exemplo;
         Create Database
         CREATE DATABASE `exemplo` !40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci 
+     
+      /*Alterar dados */
+
+        ALTER TABLE `amigos` CHANGE `telefone` `telefone` VARCHAR(15) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
