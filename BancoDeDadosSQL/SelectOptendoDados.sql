@@ -16,3 +16,5 @@ where distinct nacionalidade from gafanhotos /*O 'Distinct' agrupa todos os regi
 order by nacionalidade; 
 
 select count(*) from cursos where cargas > 40; /*O operador 'count' conta os registros*/
+
+select max(carga) from carga; /*O operados (MAX) seleciona o MAIOR registro*/
