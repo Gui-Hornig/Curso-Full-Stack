@@ -8,4 +8,7 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
        UNIQUE KEY `nome` (`nome`)
        ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci |
 
-       /**/
+       /*Como foi criado o banco de dados*/
+
+       show create database exemplo;
+        Create Database
