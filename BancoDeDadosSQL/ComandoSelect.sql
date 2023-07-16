@@ -40,3 +40,8 @@ order by nome;
 select nome, ano from cursos
 where ano in (2014, 2016)
 order by ano;
+
+/*selecione a tabela cursos onde CARGA seja > (MAIOR) que 35 e TOTAULAS seja < (menor) que 30*/
+
+select * from cursos
+where carga > 35 and totaulas < 30;
