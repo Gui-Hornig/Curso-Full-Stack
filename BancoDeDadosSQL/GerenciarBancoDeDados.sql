@@ -17,3 +17,5 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
       /*Alterar dados */
 
         ALTER TABLE `amigos` CHANGE `telefone` `telefone` VARCHAR(15) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+
+        ALTER TABLE `amigos` ADD `idade` INT NOT NULL AFTER `nome`;
