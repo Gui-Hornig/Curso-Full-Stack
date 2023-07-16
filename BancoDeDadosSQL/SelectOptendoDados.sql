@@ -4,5 +4,4 @@ where nome like 'P%';
 
 select * from cursos
 where nome like '%A'; /*a posicao do '%' altera o que o SQL retorna*/ 
- 
- 
+ where nome like '%A'; /*Seleciona todos os registros que começam com A */
