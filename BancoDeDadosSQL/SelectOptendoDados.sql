@@ -20,4 +20,5 @@ select count(*) from cursos where cargas > 40; /*O operador 'count' conta os reg
 select max(carga) from cursos; /*O operados (MAX) seleciona o MAIOR registro*/
 select mas(totaulas) from cursos where ano = '2016';
 select nome, min(totaulas) from cursos where ano = '2016'; /*com o MIN seleciona o minimo*/
-select sum(totaulas) from cursos where ano = '2016';
+select sum(totaulas) from cursos where ano = '2016'; /*Soma o total de aulas no ano de 2016*/
+select avg(todas) from cursos where ano = '2016' /*Faz a media*/
