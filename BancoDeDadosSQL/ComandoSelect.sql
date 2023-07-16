@@ -13,3 +13,16 @@ order by nome;
 
 select nome, carga, ano from cursos
 order by ano, nome; /*ordena primeiro por ANO e depois por NOME(alfabetico) */
+
+/*Filtra todas as LINHAS*/
+
+select * from cursos /*Selecione todos os campos da tabela cursos onde o ano seja igual a 2016 ordenado por nome*/
+where ano = '2016'
+order by nome;
+
+/*Selecione todas as colunas (nome, descricao, ano) da tabela (cursos) onde o (ano) seja igual ou menor que 2015
+* e ordene por nome (alfabetico)
+ */
+select nome, descricao, ano from cursos
+where ano <= 2015
+order by nome;
