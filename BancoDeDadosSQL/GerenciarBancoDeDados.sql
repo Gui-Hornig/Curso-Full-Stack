@@ -21,3 +21,5 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
         ALTER TABLE `amigos` ADD `idade` INT NOT NULL AFTER `nome`;
 
         ALTER TABLE `amigos` DROP `idade`;
+
+        "ALTER TABLE `amigos` DROP `idade`;"
