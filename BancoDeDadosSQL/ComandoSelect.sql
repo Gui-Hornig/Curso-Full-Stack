@@ -34,3 +34,9 @@ order by nome;
  select nome, ano from cursos
  where ano between 2014 and 2016
  order by ano desc,  nome asc;
+
+ /*Selecione todas as colunas (nome, descricao, ano) da tabela cursos onde o ano esteja dentro (IN) desses valores 2014, 2016*/
+
+select nome, ano from cursos
+where ano in (2014, 2016)
+order by ano;
