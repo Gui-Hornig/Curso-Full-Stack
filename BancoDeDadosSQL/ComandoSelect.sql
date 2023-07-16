@@ -7,4 +7,5 @@ order by nome desc; /*Organiza em ordem alfabetica (caso adicione o "DESC" ele o
 
 /*Seleciona apenas as descritas */
 
-sele
+select nome, carga, ano from cursos
+order by nome;
