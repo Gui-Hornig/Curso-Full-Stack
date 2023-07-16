@@ -12,3 +12,4 @@ show create table amigos; /*Descobre o comando que foi utilizado para crir a tab
 
        show create database exemplo;
         Create Database
+        CREATE DATABASE `exemplo`
