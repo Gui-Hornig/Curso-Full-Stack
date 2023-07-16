@@ -28,8 +28,8 @@ where ano <= 2015
 order by nome;
 
 
-/* selecione todas as colunas ta tabela cursos onde o ano esteja entre 2014 e 2016, ordene por (ano e nome)
- */
+/* selecione todas as colunas ta tabela cursos onde o ano esteja entre (Between) 2014 e 2016, ordene por (ano e nome)
+ */ 
 
  select nome, ano from cursos
  where ano between 2014 and 2016
