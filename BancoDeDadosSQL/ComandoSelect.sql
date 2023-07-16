@@ -33,4 +33,4 @@ order by nome;
 
  select nome, ano from cursos
  where ano between 2014 and 2016
- ordem by ano desc,  nome;
+ ordem by ano desc,  nome asc;
