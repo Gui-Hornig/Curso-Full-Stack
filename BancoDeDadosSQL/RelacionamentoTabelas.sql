@@ -13,3 +13,4 @@ create table gafanhoto_assite_curso (
 
 teste git
 segundo test
+terceiro teste
