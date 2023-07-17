@@ -17,3 +17,5 @@ a Cardinalidade classifica um 'Relacionamento' */
 Um pra um
 um pra muitos
 muitos pra muitos*/
+
+/*Chaves primarias: identificas as tuplas */
