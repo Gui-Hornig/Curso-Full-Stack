@@ -16,7 +16,7 @@ select ano, count(*) from cursos where totaulas > 30 group by ano having ano > 2
 
 /*selecionar totos os cursos com ano acima de 2015, agrupar por carga mas so mostre a carga acima da media */
 
-select carga, count(*) from curso
+select carga, count(*) from cursos
 where ano > 2015
 group by carga
 having carga > (select avg(carga) from cursos);
