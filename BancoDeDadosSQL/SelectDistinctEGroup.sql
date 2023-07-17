@@ -13,3 +13,10 @@ dentro do agrupamento so vai mostrar quem tem (having) o ano maior (>) que 2013
 e ordenar (order by ) pelo total*/
 
 select ano, count(*) from cursos where totaulas > 30 group by ano having ano > 2013 order by count(*) desc;
+
+/*selecionar totos os cursos com ano acima de 2015, agrupar por carga mas so mostre a carga acima da media */
+
+select carga, count(*) from curso
+where ano > 2015
+group by carga
+having carga > (select avg(carga) from cursos);
