@@ -22,7 +22,7 @@ references cursos(idcurso);
 /*o meu aluno '1' vai gostar do curso '6'*/
 update gafanhoos set cursopreferido = '6' where id = '1';
 
-/*Precisa fazer o Update um por um mas no Work*/
+/*Precisa fazer o Update um por um mas no Workbench fica mais rapido fazer isso*/
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '22' WHERE (`id` = '2');
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '12' WHERE (`id` = '3');
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '7' WHERE (`id` = '4');
