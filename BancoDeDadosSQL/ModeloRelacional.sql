@@ -18,5 +18,7 @@ Um pra um
 um pra muitos
 muitos pra muitos*/
 
-/*Chaves primarias: identificas as tuplas 
+/*Chaves primarias: identificas as duplas
+Chaves estrangeira: E umas chave primaria que veio de outro lugar
+* Criar relacionamento em tabelas basicamente e fazer uma troca de chaves 
 */
