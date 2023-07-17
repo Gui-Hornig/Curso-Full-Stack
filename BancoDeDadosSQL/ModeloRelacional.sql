@@ -6,3 +6,4 @@
               descricao 
               carga 
               ano*/
+/*No modelo rlaciona pode se fazer ligacoes entre esses atributos*/
