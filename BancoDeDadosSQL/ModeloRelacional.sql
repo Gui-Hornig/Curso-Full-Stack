@@ -7,3 +7,11 @@
               carga 
               ano*/
 /*No modelo rlaciona pode se fazer ligacoes entre esses atributos*/
+
+/*Chave primaria = CPF, ID * /
+
+/*Cardinalidade = modelo maxima, cada 'aluno' pode assistir varios cursos\
+a Cardinalidade classifica um 'Relacionamento' */
+
+Modelos de classificao: 
+Um 
