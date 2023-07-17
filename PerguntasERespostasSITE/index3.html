@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas e Respostas</title>
+    <style>
+        body {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.box-nav{
+    background-color: gold;
+    padding: 5px;
+    border-radius: 15px;
+}
+.Box{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 50%;
+}
+::placeholder{
+    font-size: 10px;
+}
+button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 50%;
+    border-radius: 10px;
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+    transition: 0.5;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+    </style>
+</head>
+<body>
+    <div class="box-nav">
+        <h1>EXERCÍCIOS</h1>
+        <H2>Quiz Perguntas e respostas</H2>
+    </div>
+    <div class="Box">
+        <p>Questão: 
+            Questão: Leia as idades de duas crianças. Após, calcular e mostrar a soma das idades e a média.</p>
+        <input type="text" id="num-a" placeholder="Digite uma pergunta" font 10px>
+        <br><br>
+        <input type="text" id="num-b" placeholder="Digite uma pergunta" font 10px>
+        <br><br>
+        <button onclick="go()">Enviar</button>
+    </div>
+</body>
+<script> 
+    function go(){
+    var a = document.getElementById('num-a').value
+    var b = document.getElementById('num-b').value
+    var c = b;
+    var b = a;
+    var a = c;
+
+    console.log('Variavel A: ' + a)
+    console.log('Variavel B: ' + b)
+    }
+</script>
+</html>
