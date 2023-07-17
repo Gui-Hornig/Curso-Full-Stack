@@ -12,3 +12,4 @@ create table gafanhoto_assite_curso (
 )DEFAULT CHARSET = utf8;
 
 teste git
+segundo test
