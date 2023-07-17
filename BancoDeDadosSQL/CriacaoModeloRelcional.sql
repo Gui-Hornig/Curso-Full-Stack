@@ -15,6 +15,6 @@ desc gafanhotos;
 alter table gafanhotos
 add column cursopreferido int;
 /*O cursopreferido da tabela gafanhotos esta ligados com idcursos da tabela cursos */
-alter table gafanhoto
+alter table gafanhotos
 add foreign key(cursopreferido)
-references cursos(idcursos);
+references cursos(idcurso);
