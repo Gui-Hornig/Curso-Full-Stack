@@ -12,4 +12,4 @@ select carga, count(nome) from cursos where totaulas = 30 group by carga;
 dentro do agrupamento so vai mostrar quem tem (having) o ano maior (>) que 2013 
 e ordenar (order by ) pelo total*/
 
-selec
+select ano, count(*) from cursos where totaulas > 30 group by ano having ano > 2013 order by count(*) desc;
