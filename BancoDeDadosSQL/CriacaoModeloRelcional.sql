@@ -18,3 +18,6 @@ add column cursopreferido int;
 alter table gafanhotos
 add foreign key(cursopreferido)
 references cursos(idcurso);
+
+/*o meu aluno '1' vai gostar do curso '6'*/
+update gafanhoos set cursopreferido = '6' where id = '1';
