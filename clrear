@@ -1,0 +1,283 @@
+[33mcommit 69d69f95fbea33614d9a57955ad4de98e499f5fb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 09:53:57 2023 -0300
+
+    apagando
+
+[33mcommit 203b8f86b66268a07ff9514766dbd19b04c1c90e[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 09:52:31 2023 -0300
+
+    testando o git
+
+[33mcommit 9da35a3a7990358ce3828adce2d7160cdecbc44d[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 09:46:15 2023 -0300
+
+    .
+
+[33mcommit d89db195a87d83b3a23dd21edf0ee679a88a6460[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 09:42:48 2023 -0300
+
+    s
+
+[33mcommit 43e5bfcfc9a06a964ca97aea7c9632d109393549[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 09:40:01 2023 -0300
+
+    Commit for git
+
+[33mcommit 99a337a27c2eff14623b46ba72d723b63d3db9ee[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Mon Jul 17 00:05:34 2023 -0300
+
+    Create RelacionamentoTabelas.sql
+
+[33mcommit c3cea841e0eeb9218bd5f745c22413a6c3a57293[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:45:46 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 6ee867f5227269628f92cbefb99fe1d35b1e8767[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:19:41 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit cae2d6269565445a29b521e58bfea5c232ca51c0[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:18:47 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit c862cba488d3ae12f5f3aa5abe6c42c90ca84251[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:15:39 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit c9bc4a3a8ecb4e8535eba7ba8ca7a070b7c2b645[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:13:28 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 3f1f90907eaa425dc5287c049b84b7292701ba2c[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:12:39 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 2fc7c87bcfe1e67b308da4dd96804015c15db466[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:02:11 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 6ba2ec5802b2e667353e42c5ddd720d6abac9c89[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 23:00:26 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 577eccbc31f37765cb156727e1a88611b96b72d0[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:57:28 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 0bbc7936a40ad098acceab990208783de0ba8e75[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:56:56 2023 -0300
+
+    Update CriacaoModeloRelcional.sql
+
+[33mcommit 73233f84d24460da31b33750325808224e7360a5[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:50:48 2023 -0300
+
+    Create CriacaoModeloRelcional.sql
+
+[33mcommit 0e09a49b42e1c4150df4f4b90bd1e19153469e4c[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:50:18 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 1dbf006bf2f0fc2d0ad09ca0fd868f38e54c6ee1[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:39:06 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 60275f9bec1978df9bfe1e8410a07ec382b1786e[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:35:33 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 59a2728581caf19886e6e45e50dc4f15aebb617d[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:35:21 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 4ec2df470d7ddc0611b0d3948cd6455ac5d2a092[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:30:48 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 160e10f1ffe93c1022dbeeb6e8fac3514601d923[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:30:16 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 2e19a7d60e371055c1632fc22fd2c69d16d329ef[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:16:51 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit abf74ed9fc1ac2b25fc60edcd3f2f0d65d178f60[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:16:15 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 5e0fa8ebc6a3fb736df1fcdd2541ed2d37cd2fff[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:12:22 2023 -0300
+
+    Update ModeloRelacional.sql
+
+[33mcommit 49bd0a18690ea7ee0ddac8e4a9052c4b7e86a9d3[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:10:15 2023 -0300
+
+    Create ModeloRelacional.sql
+
+[33mcommit 8884bbc2356155846291af5dbf50a20fc3c10b08[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:02:25 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit 034f3b62fa87f80bc1492490f7c639cfff0a4b3c[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 22:01:54 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit bc0daebe28bdee6a0ac1e5967f5be41044781751[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:57:01 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit d55971d51c4e38fa4f5893d3727370429d91a600[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:55:24 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit e7ad08b0a841008d84809a9bf2c6329fb3f9ddd1[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:48:05 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit 33337c8707eb0b3af9176a8f2ffdd468956cc5f7[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:44:19 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit 4e59dd2e06869fde3d1b9b18d4af3fc4fe83b30d[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:42:08 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit 68a9216827afefb2c12278ad1ddfaa251c0315f5[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:41:36 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit d0f8dc043bbcb2d80bb7214a712e756bee97dc4a[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:38:54 2023 -0300
+
+    Update SelectDistinctEGroup.sql
+
+[33mcommit c0a9d7a28fffb693b2ff1c23d9cf42f7fa20cd65[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 21:36:30 2023 -0300
+
+    Create SelectDistinctEGroup.sql
+
+[33mcommit 775849e69cec888050b2fe7ec9cb84b2c4ecea05[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:49:25 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 8db2ae4cb566026c6aa310a1bd6ed1d473921803[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:48:19 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 715ee09ab0f2c1937ba9b98e4dd215b536fc20f4[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:46:48 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit e82fc66e2e91a07c165df8a2f57aa78f6b504586[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:46:12 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 378763c0e9b6b9e614f26096052481410a3564e4[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:44:15 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 7425cea2952b88c49554eba20cc72833bd17846f[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:43:42 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit d07673921bbc846a568bd52d5551a47a0a6e5d36[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:42:20 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 4ab3ad4a4d5056dc2befc1d965287e80a76afd4d[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:39:49 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 549322910d48974a148fa0dbb5c9c111091ea92a[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:39:41 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 5aeb2e4b9fb8be60d6507d8921390b7e77bb2fba[m
+Author: Gui-hornig <guihornig@gmail.com>
+Date:   Sun Jul 16 19:37:17 2023 -0300
+
+    Update SelectOptendoDados.sql
+
+[33mcommit 3033035a40a13d7d76c012810b61e575ea5d3fb5[m
