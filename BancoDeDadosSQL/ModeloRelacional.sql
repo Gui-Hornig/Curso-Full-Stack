@@ -13,5 +13,7 @@
 /*Cardinalidade = modelo maxima, cada 'aluno' pode assistir varios cursos\
 a Cardinalidade classifica um 'Relacionamento' */
 
-Modelos de classificao: 
-Um 
+/*Modelos de classificao: 
+Um pra um
+um pra muitos
+muitos pra muitos*/
