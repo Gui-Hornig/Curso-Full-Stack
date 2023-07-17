@@ -10,10 +10,3 @@ create table gafanhoto_assite_curso (
     FOREIGN KEY(idgafanhoto) REFERENCES gafanhotos(id),
     FOREIGN KEY(Idcurso) REFERENCES cursos(idcurso)
 )DEFAULT CHARSET = utf8;
-
-teste git
-segundo test
-terceiro teste
-
-sdas
-
