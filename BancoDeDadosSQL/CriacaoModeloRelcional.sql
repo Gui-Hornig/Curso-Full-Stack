@@ -33,3 +33,25 @@ UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '5' WHERE (`id` = '8');
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '3' WHERE (`id` = '9');
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '30' WHERE (`id` = '10');
 UPDATE `cadastro`.`gafanhotos` SET `cursopreferido` = '22' WHERE (`id` = '11');
+
+/*Integridade  referencial*/
+delete from cursos
+where idcursos = '6';
+/*Gera um erro pois se vc tentar alterar qualquer estrutura do 'Curso' e negado pois ja exite outras pessoas com esse relacionamento*/
+
+
+/*junções */
+
+select nome, cursopreferido from gafanhotos;
+select nome, ano from cursos;
+
+select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano
+from gafanhotos join cursos; /*fez a juncao dos comandos e vai retornar tudo de uma vez mas precisa FILTRAR isso com ON*/
+
+
+select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano
+from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido; 
+
+select gafanhotos.nome, gafanhotos.cursopreferido, cursos.nome, cursos.ano
+from gafanhotos join cursos on cursos.idcurso = gafanhotos.cursopreferido
+order by gafanhotos.nome; /*Ordem alfabetida de nome dos alunos*/
