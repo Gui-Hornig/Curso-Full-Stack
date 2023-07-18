@@ -6,7 +6,9 @@ function Filter() {
             <div>
                 <p>Status</p>
                 <select>
-                    
+                    <option value="All">Todas</option>
+                    <option value="Completed">Completas</option>
+                    <option value="Incomplete">Incompletas</option>
                 </select>
             </div>
         </div>
