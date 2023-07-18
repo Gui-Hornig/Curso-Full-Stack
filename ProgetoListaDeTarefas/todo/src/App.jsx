@@ -68,8 +68,8 @@ function App() {
     <Search search={search} setSearch={setSearch}/>
     <div className="todo-list">
       {todos
-      .filter((todo) => 
-        todo.text.toLowerCase().includes(search.toLowerCase())
+      .filter((todo) =>  /*Responsavel por pesquisar no titulo e mostrar o melhor resultado*/
+        todo.text.toLowerCase().includes(search.toLowerCase()) 
         )
         .map((todo) => (
         <Todo 
