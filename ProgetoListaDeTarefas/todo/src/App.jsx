@@ -73,6 +73,13 @@ function App() {
     <Filter filter={filter} setFilter={setFilter}/>
     <div className="todo-list">
       {todos
+      .filter((todo)=> 
+      filter === "All" 
+      ? true 
+      : filter === "Completed" 
+      ? todo.isCompleted 
+      : !todo.isCompleted
+      )
       .filter((todo) =>  /*Responsavel por pesquisar no titulo e mostrar o melhor resultado*/
         todo.text.toLowerCase().includes(search.toLowerCase()) 
         )
