@@ -3,9 +3,10 @@ import { useState } from "react";
 import Todo from "./components/Todo";
 import TodoForm from "./components/TodoForm";
 import Search from "./components/Search";
+import Filter from "./components/Filter";
 
 import "./App.css";
-import Filter from "./components/Filter";
+
 
 
 function App() {
@@ -103,3 +104,4 @@ function App() {
 
 
 export default App;
+// http://localhost:5173/?
