@@ -34,7 +34,7 @@ function App() {
   const [search, setSearch] = useState ("")
 
   const [filter, setFilter] = useState ("ALL")
-  const [sort, setSort] = useState("Ascendente")
+  const [sort, setSort] = useState("Asc")
 
   const addTodo = (text, category) => {
 
@@ -83,9 +83,11 @@ function App() {
       .filter((todo) =>  /*Responsavel por pesquisar no titulo e mostrar o melhor resultado*/
         todo.text.toLowerCase().includes(search.toLowerCase()) 
         )
-        .sort((a, b) => sort === "Ascendente" 
+        .sort((a, b) => 
+        sort === "Asc" 
         ? a.text.localeCompare(b.text) 
-        : b.text.localeCompare(a.text))
+        : b.text.localeCompare(a.text)
+        )
         .map((todo) => (
         <Todo 
         key={todo.id} 
