@@ -11,6 +11,11 @@ function Filter() {
                     <option value="Incomplete">Incompletas</option>
                 </select>
             </div>
+            <div>
+                <p>Ordem alfabética:</p>
+                <button>Asc</button>
+                <button>Desc</button>
+            </div>
         </div>
     </div>
   )
