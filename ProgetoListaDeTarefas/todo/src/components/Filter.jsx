@@ -5,6 +5,9 @@ function Filter() {
         <div className="filter-optons">
             <div>
                 <p>Status</p>
+                <select>
+                    
+                </select>
             </div>
         </div>
     </div>
