@@ -1,6 +1,13 @@
 function Filter() {
   return (
-    <div>Filter</div>
+    <div className="filter">
+        <h2>Filtrar:</h2>
+        <div className="filter-optons">
+            <div>
+                <p>Status</p>
+            </div>
+        </div>
+    </div>
   )
 }
 
