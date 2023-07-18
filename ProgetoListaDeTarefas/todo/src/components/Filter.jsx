@@ -2,7 +2,7 @@ function Filter() {
   return (
     <div className="filter">
         <h2>Filtrar:</h2>
-        <div className="filter-optons">
+        <div className="filter-options">
             <div>
                 <p>Status</p>
                 <select>
@@ -13,8 +13,8 @@ function Filter() {
             </div>
             <div>
                 <p>Ordem alfabética:</p>
-                <button>Asc</button>
-                <button>Desc</button>
+                <button>Ascendente</button>
+                <button>Descendente</button>
             </div>
         </div>
     </div>
