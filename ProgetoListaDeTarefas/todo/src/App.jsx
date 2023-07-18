@@ -33,6 +33,9 @@ function App() {
 
   const [search, setSearch] = useState ("")
 
+  const [filter, setFilter] = useState ("ALL")
+  const [sort, setSort] = useState("Ascendente")
+
   const addTodo = (text, category) => {
 
      const newTodos = [
@@ -67,7 +70,7 @@ function App() {
   return <div className="app">
     <h1>Lista de tarefas</h1>
     <Search search={search} setSearch={setSearch}/>
-    <Filter/>
+    <Filter filter={filter} setFilter={setFilter}/>
     <div className="todo-list">
       {todos
       .filter((todo) =>  /*Responsavel por pesquisar no titulo e mostrar o melhor resultado*/

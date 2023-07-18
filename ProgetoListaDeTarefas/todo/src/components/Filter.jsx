@@ -1,4 +1,4 @@
-function Filter() {
+const Filter = (filter, setFilter) => {
   return (
     <div className="filter">
         <h2>Filtrar:</h2>
