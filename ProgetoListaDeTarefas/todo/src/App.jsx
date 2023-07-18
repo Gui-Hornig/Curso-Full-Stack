@@ -67,8 +67,17 @@ function App() {
     <h1>Lista de tarefas</h1>
     <Search search={search} setSearch={setSearch}/>
     <div className="todo-list">
-      {todos.filter((todo) => todo.text.toLocaleLowerCase().includes(search.toLowerCase))map((todo) => (
-        <Todo key={todo.id} todo={todo} removeTodo= {removeTodo} completeTodo={completeTodo}/>
+      {todos
+      .filter((todo) => 
+        todo.text.toLowerCase().includes(search.toLowerCase())
+        )
+        .map((todo) => (
+        <Todo 
+        key={todo.id} 
+        todo={todo} 
+        removeTodo= {removeTodo} 
+        completeTodo={completeTodo}
+        />
       ))}
     </div>
     <TodoForm addTodo={addTodo} />
