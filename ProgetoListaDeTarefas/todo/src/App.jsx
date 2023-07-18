@@ -1,10 +1,5 @@
 import { useState } from 'react'
 
-
-function App() {
-
-  return <div>  Ola react </div>
-  
   function App() {
     const [todos, settodos] = useState([
       {
@@ -26,8 +21,21 @@ function App() {
         isCompleted: false,
       },
 
-    ])
-  }
-}
+    ]);
+    return <div className="app">
+      <h1>Lista de tarefas</h1>
+      <div className="todo-list">
+        {todos.map((todo) => (
+          <div className="todo">
+            <div className="content">
+              <p>{todo.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
 
-export default App
+    </div>
+  }
+
+
+export default App;
