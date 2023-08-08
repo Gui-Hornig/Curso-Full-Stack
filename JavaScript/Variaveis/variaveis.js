@@ -111,3 +111,4 @@ for(contador = 0; contador < 10; contador++)
 {
   alert(contador);
 }
+console.log(alert(9))
