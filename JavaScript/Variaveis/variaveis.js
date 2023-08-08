@@ -75,3 +75,8 @@ default:
 alert(“Hoje não é nem domingo, nem segunda, nem terça”);
 break
 }
+
+while(condição)
+{
+  //ações
+}
