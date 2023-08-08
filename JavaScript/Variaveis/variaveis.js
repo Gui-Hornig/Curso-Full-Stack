@@ -60,3 +60,5 @@ default:
 //ações caso nenhum dos valores
 break
 }
+switch(dia)
+{
