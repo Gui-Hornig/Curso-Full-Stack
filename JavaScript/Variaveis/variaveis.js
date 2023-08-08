@@ -87,3 +87,8 @@ while(contador < 5)
   alert(“Olá”);
   contador = contador + 1;
 }
+do
+{
+  //ações
+}
+while(condição)
