@@ -30,3 +30,7 @@ else if (condição 2)
 {
     //ação se condição 2 verdadeira
   }
+  else
+{
+  //ação se nenhuma das condições for verdadeira
+}
