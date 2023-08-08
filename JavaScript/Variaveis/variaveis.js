@@ -50,3 +50,6 @@ switch(variável)
     case valor1:
 //ações caso valor1
 break;
+case valor2:
+//ações caso valor2
+break;
