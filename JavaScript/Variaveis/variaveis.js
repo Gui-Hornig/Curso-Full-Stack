@@ -92,3 +92,22 @@ do
   //ações
 }
 while(condição)
+
+var contador = 0;
+do
+{
+alert(“Olá”);
+contador = contador + 1;
+}
+while(contador < 5)
+
+for(inicialização; condição; complemento)
+{
+  //ações
+}
+
+var contador;
+for(contador = 0; contador < 10; contador++)
+{
+  alert(contador);
+}
