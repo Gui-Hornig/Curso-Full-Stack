@@ -34,3 +34,8 @@ else if (condição 2)
 {
   //ação se nenhuma das condições for verdadeira
 }
+
+if(idade > 18)
+{
+alert(“É maior de idade”).
+}
