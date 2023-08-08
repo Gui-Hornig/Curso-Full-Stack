@@ -65,3 +65,6 @@ switch(dia)
     case 1:
 alert(“Hoje é domingo”);
 break;
+case 2:
+alert(“Hoje é segunda”);
+break;
