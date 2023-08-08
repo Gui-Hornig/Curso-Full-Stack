@@ -44,3 +44,9 @@ else
 {
 alert(“É menor de idade”);
 }
+
+switch(variável)
+{
+    case valor1:
+//ações caso valor1
+break;
