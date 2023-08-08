@@ -16,3 +16,8 @@ function exibirMensagem()
 {
   alert(“Olá, seja bem vindo(a)!”);
 }
+
+function somar(A, B)
+{
+  return A + B;
+}
