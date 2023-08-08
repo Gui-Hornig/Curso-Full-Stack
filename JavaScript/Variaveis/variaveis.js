@@ -61,4 +61,7 @@ default:
 break
 }
 switch(dia)
-{
+{ 
+    case 1:
+alert(“Hoje é domingo”);
+break;
