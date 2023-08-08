@@ -53,3 +53,6 @@ break;
 case valor2:
 //ações caso valor2
 break;
+case valor3:
+//ações caso valor3
+break;
