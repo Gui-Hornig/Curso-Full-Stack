@@ -56,3 +56,7 @@ break;
 case valor3:
 //ações caso valor3
 break;
+default:
+//ações caso nenhum dos valores
+break
+}
