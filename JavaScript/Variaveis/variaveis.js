@@ -21,3 +21,9 @@ function somar(A, B)
 {
   return A + B;
 }
+
+if(condição 1)
+{
+  //ação se condição 1 verdadeira
+}
+else if (condição 2)
