@@ -68,3 +68,6 @@ break;
 case 2:
 alert(“Hoje é segunda”);
 break;
+case 3:
+alert(“Hoje é terça”);
+break;
