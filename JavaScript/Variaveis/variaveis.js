@@ -71,3 +71,7 @@ break;
 case 3:
 alert(“Hoje é terça”);
 break;
+default:
+alert(“Hoje não é nem domingo, nem segunda, nem terça”);
+break
+}
