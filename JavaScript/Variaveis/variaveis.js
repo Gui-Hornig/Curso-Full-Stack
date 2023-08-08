@@ -39,3 +39,8 @@ if(idade > 18)
 {
 alert(“É maior de idade”).
 }
+
+else
+{
+alert(“É menor de idade”);
+}
