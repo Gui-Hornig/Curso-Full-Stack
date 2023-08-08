@@ -80,3 +80,10 @@ while(condição)
 {
   //ações
 }
+
+var contador = 0;
+while(contador < 5)
+{
+  alert(“Olá”);
+  contador = contador + 1;
+}
