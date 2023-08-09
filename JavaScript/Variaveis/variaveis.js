@@ -7,4 +7,4 @@ const codigo = 5291
 const genero = "F"
 
 
-console.log('Natalia tem', idade, 'comprou um ' + produto1, 'que custou R$' + preco1)
+console.log('Natalia tem', idade, 'anos e resolveu comprar um ' + produto1, 'que custou R$' + preco1)
