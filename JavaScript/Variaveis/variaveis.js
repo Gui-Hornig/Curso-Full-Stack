@@ -13,9 +13,9 @@ const divisao = 10/10
 console.log(divisao)
 
 
-const precoCombustivel = 2
+const precoCombustivel = 5
 const combustivelPorKm = 10
-const distanciaKm = 5
+const distanciaKm = 50
 
-const gastoViagem = (precoCombustivel * combustivelPorKm) * distanciaKm
+const gastoViagem = (distanciaKm / combustivelPorKm) * precoCombustivel
 console.log(gastoViagem)
