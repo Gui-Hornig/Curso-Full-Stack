@@ -8,3 +8,6 @@ const genero = "F"
 
 
 console.log('Natalia tem', idade, 'anos e resolveu comprar um ' + produto1, 'que custou R$' + preco1)
+
+const divisao = 10/10 
+console.log(divisao)
