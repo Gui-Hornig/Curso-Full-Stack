@@ -14,20 +14,3 @@ idade = 30 + 20 - 10*5;
 
 function exibirMensagem()
 {
-  alert(“Olá, seja bem vindo(a)!”);
-}
-
-function somar(A, B)
-{
-  return A + B;
-}
-
-if(condição 1)
-{
-  //ação se condição 1 verdadeira
-}
-else if (condição 2)
-{
-    //ação se condição 2 verdadeira
-  }
-  else
