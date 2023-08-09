@@ -5,12 +5,3 @@
 // const idade = 30
 // const codigo = 5291
 // const genero = "F"
-
-
-var nome;
-nome = “Fulano de Tal”;
-var idade = 30;
-idade = 30 + 20 - 10*5;
-
-function exibirMensagem()
-{
