@@ -31,32 +31,3 @@ else if (condição 2)
     //ação se condição 2 verdadeira
   }
   else
-{
-  //ação se nenhuma das condições for verdadeira
-}
-
-if(idade > 18)
-{
-alert(“É maior de idade”).
-}
-
-else
-{
-alert(“É menor de idade”);
-}
-
-switch(variável)
-{
-    case valor1:
-//ações caso valor1
-break;
-case valor2:
-//ações caso valor2
-break;
-case valor3:
-//ações caso valor3
-break;
-default:
-//ações caso nenhum dos valores
-break
-}
