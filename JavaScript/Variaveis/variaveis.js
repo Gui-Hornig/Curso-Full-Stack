@@ -60,23 +60,3 @@ default:
 //ações caso nenhum dos valores
 break
 }
-switch(dia)
-{ 
-    case 1:
-alert(“Hoje é domingo”);
-break;
-case 2:
-alert(“Hoje é segunda”);
-break;
-case 3:
-alert(“Hoje é terça”);
-break;
-default:
-alert(“Hoje não é nem domingo, nem segunda, nem terça”);
-break
-}
-
-while(condição)
-{
-  //ações
-}
