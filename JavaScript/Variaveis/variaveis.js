@@ -11,3 +11,10 @@ console.log('Natalia tem', idade, 'anos e resolveu comprar um ' + produto1, 'que
 
 const divisao = 10/10 
 console.log(divisao)
+
+
+const precoCombustivel = 2
+const gastoMedioKm = 2
+const distanciaKm = 5
+
+const gastoViagem = (precoCombustivel * distanciaKm) / gastoMedioKm
