@@ -18,3 +18,4 @@ const gastoMedioKm = 2
 const distanciaKm = 5
 
 const gastoViagem = (precoCombustivel * distanciaKm) / gastoMedioKm
+console.log(gastoViagem)
