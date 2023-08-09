@@ -5,3 +5,6 @@ const preco2 = 1830.0
 const idade = 30
 const codigo = 5291
 const genero = "F"
+
+
+console.log(idade)
