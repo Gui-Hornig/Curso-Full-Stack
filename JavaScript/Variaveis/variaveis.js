@@ -17,5 +17,5 @@ const precoCombustivel = 2
 const combustivelPorKm = 2
 const distanciaKm = 5
 
-const gastoViagem = (precoCombustivel * distanciaKm) / combustivelPorKm
+const gastoViagem = (precoCombustivel * combustivelPorKm) / 
 console.log(gastoViagem)
