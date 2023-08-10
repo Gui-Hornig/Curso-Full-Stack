@@ -1,5 +1,7 @@
 // RESTO DA DIVISAO "%"
 
-const eNumeroPar = 10;
+const numero = 10;
 
-const eNumeroPar = numero % 2 === 0;
+const numeroPar = (numero % 2) === 0;
+
+console.log(numeroPar);
