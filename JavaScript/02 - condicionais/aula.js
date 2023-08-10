@@ -19,3 +19,8 @@ if (verdadeiroEfalso) {
 } else {
     console.log('impar')
 }
+
+
+// OUTRO EXEMPLO IF e ELSE 
+
+const 
