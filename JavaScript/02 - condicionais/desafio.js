@@ -16,5 +16,10 @@ const precoLitroGasolina = 6.66;
 const kmPorLitro = 12;
 const distanciaKm = 1580;
 
-const gastoViagem = (distanciaKm / kmPorLitro) * precoLitroEtanol;
-console.log(gastoViagem.toFixed(2)); // O toFixed Converte o valor em texto 
+const calculoValoresViagem = (distanciaKm / kmPorLitro) * precoLitroEtanol || precoLitroGasolina
+
+if ((distanciaKm / kmPorLitro) * precoLitroEtanol) {
+    console.log ('Consumo em Etanol:')
+} else if ((distanciaKm / kmPorLitro) * precoLitroGasolina) {
+    console.log('Consumo em Gasolina:')
+}
