@@ -34,3 +34,17 @@ else if (divisivelPor5) {
 } else {
     console.log('NAO')
 }
+
+// CONVENSAO variaveis BOLEANAS colocar o PREFIXO de IS ex 
+
+const dinheiroDaConta2 = 0;
+const isDivisivelPor5 = (dinheiroDaConta2 % 5) ===  0;
+
+if (dinheiroDaConta2 === 0){
+    console.log ('O numero e invalido')
+}
+else if (divisivelPor5) {
+    console.log('SIM')
+} else {
+    console.log('NAO')
+}
