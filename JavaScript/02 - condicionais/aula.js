@@ -26,4 +26,8 @@ if (verdadeiroEfalso) {
 const dinheiroDaConta = 10;
 const divisivelPor5 = (dinheiroDaConta % 5) ===  0;
 
-
+if (divisivelPor5) {
+    console.log('SIM')
+} else {
+    console.log('NAO')
+}
