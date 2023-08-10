@@ -23,4 +23,7 @@ if (verdadeiroEfalso) {
 
 // OUTRO EXEMPLO IF e ELSE 
 
-const 
+const dinheiroDaConta = 10;
+const divisivelPor5 = (dinheiroDaConta % 5) ===  0;
+
+
