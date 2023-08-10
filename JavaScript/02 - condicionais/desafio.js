@@ -10,3 +10,11 @@
 
 // Imprima no Console o gasto para realizar a viagem
 
+
+// CONVERTE O VALOR DE KM RODADO 
+const precoCombustivel = 5.79;
+const combustivelPorKm = 12;
+const distanciaKm = 1580;
+
+const gastoViagem = (distanciaKm / combustivelPorKm) * precoCombustivel;
+console.log(gastoViagem.toFixed(2)); // O toFixed Converte o valor em texto 
