@@ -23,10 +23,13 @@ if (verdadeiroEfalso) {
 
 // OUTRO EXEMPLO IF e ELSE 
 
-const dinheiroDaConta = 10;
+const dinheiroDaConta = 0;
 const divisivelPor5 = (dinheiroDaConta % 5) ===  0;
 
-if (divisivelPor5) {
+if (dinheiroDaConta === 0){
+    console.log ('O numero e invalido')
+}
+else if (divisivelPor5) {
     console.log('SIM')
 } else {
     console.log('NAO')
