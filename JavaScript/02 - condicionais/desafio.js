@@ -22,7 +22,7 @@ const distanciaKm = 1580;
 function totalViagem () {
     (distanciaKm / kmPorLitro) * precoLitroEtanol || precoLitroGasolina
     if (precoLitroEtanol){
-        console.log('Consumo total com Alcoon:'.toFixed(2))
+        console.log('Consumo total com Alcoon:' )
     }
     
-}console.log(precoLitroEtanol)
+}console.log(totalViagem())
