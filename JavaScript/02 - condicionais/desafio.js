@@ -11,8 +11,8 @@
 // Imprima no Console o gasto para realizar a viagem
 
 
-// CONVERTE O VALOR DE KM RODADO 
-const precoCombustivel = 5.79;
+const precoEtanol = 5.79;
+const precoGasolina = 6.66
 const combustivelPorKm = 12;
 const distanciaKm = 1580;
 
