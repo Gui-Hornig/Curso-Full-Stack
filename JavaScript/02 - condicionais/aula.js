@@ -10,10 +10,12 @@ console.log(numeroPar);
 // If else
 
 
-const idade = 11;
+const idade = 0;
 const verdadeiroEfalso = (idade % 2) === 0;
 console.log(verdadeiroEfalso)
 
 if (verdadeiroEfalso) {
-    console.log('Executei')
+    console.log('Par')
+} else {
+    console.log('impar')
 }
