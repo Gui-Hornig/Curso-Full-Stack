@@ -12,10 +12,10 @@ console.log('Natalia tem', idade, 'anos e resolveu comprar um ' + produto1, 'que
 const divisao = 10/10 
 console.log(divisao)
 
-
+// CONVERTE O VALOR DE KM RODADO 
 const precoCombustivel = 5.79;
 const combustivelPorKm = 12;
 const distanciaKm = 1580;
 
 const gastoViagem = (distanciaKm / combustivelPorKm) * precoCombustivel;
-console.log(gastoViagem);
+console.log(gastoViagem.toFixed(2)); // O toFixed Converte o valor em texto 
