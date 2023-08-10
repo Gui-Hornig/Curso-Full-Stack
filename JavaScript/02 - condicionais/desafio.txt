@@ -1,5 +1,0 @@
-Faça um programa para calcular o valor de uma viagem
-
-Você terá 5 variáveis, sendo elas:
-
-1 - Preço 
