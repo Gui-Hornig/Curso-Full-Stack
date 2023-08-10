@@ -21,7 +21,7 @@ if (verdadeiroEfalso) {
 }
 
 
-// OUTRO EXEMPLO IF e ELSE 
+// OUTRO EXEMPLO ELSE if. Dessa maneira ele vai executar um de cada vez e parar quando for VERDADEIRO 
 
 const dinheiroDaConta = 0;
 const divisivelPor5 = (dinheiroDaConta % 5) ===  0;
