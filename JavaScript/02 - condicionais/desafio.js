@@ -15,12 +15,12 @@ const precoLitroEtanol = 5.79;
 const precoLitroGasolina = 6.66;
 const kmPorLitro = 10;
 const distanciaKm = 100;
-const tipoCombustivel = 'Gaslina';
+const tipoCombustivel = 'Etanol';
 
 const litrosConsumidos = distanciaKm / kmPorLitro;
 
 if (tipoCombustivel === 'Etanol') {
-    const valorGasto = litrosconCumidos * precoLitroEtanol;
+    const valorGasto = litrosConCumidos * precoLitroEtanol;
     console.log('Vaalor gasto com Etanol: ', valorGasto.toFixed(2) )
 } else {
     const valorGasto = litrosConsumidos * precoLitroGasolina;
