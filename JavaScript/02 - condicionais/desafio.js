@@ -12,11 +12,13 @@
 
 
 const precoLitroEtanol = 5.79;
-const combustivelprecoLitroGasolina = 6.66;
+const precoLitroGasolina = 6.66;
 const kmPorLitro = 10;
 const distanciaKm = 100;
 const tipoCombustivel = 'Etanol';
 
 if (tipoCombustivel === precoLitroEtanol) {
-    
+    (distanciaKm / kmPorLitro) * precoCombustivel;
+} else if (tipoCombustivel === precoLitroGasolina){
+    (distanciaKm / kmPorLitro) * precoCombustivel;
 }
