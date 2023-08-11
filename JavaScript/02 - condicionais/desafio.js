@@ -17,6 +17,6 @@ const kmPorLitro = 10;
 const distanciaKm = 100;
 const tipoCombustivel = 'Etanol';
 
-if (tipoCombustivel) {
+if (tipoCombustivel === precoLitroEtanol) {
     
 }
