@@ -16,13 +16,13 @@ const precoLitroGasolina = 6.66;
 const kmPorLitro = 12;
 const distanciaKm = 1580023342;
 
-// const calculoValorEtanol = (distanciaKm / kmPorLitro) * precoLitroEtanol
-// const calculoValorGasolina = (distanciaKm / kmPorLitro) * precoLitroGasolina
+const calculoValorEtanol = (distanciaKm / kmPorLitro) * precoLitroEtanol
+const calculoValorGasolina = (distanciaKm / kmPorLitro) * precoLitroGasolina
 
-// if (calculoValorEtanol === (distanciaKm / kmPorLitro) * precoLitroEtanol) {
-//     console.log ('Consumo em Etanol:')
-// } else if (calculoValorGasolina === (distanciaKm / kmPorLitro) * precoLitroGasolina) {
-//     console.log('Consumo em Gasolina:')
-// }
+if (calculoValorEtanol === (distanciaKm / kmPorLitro) * precoLitroEtanol) {
+    console.log ('Consumo em Etanol:')
+} else if (calculoValorGasolina === (distanciaKm / kmPorLitro) * precoLitroGasolina) {
+    console.log('Consumo em Gasolina:')
+}
 
-// console.log (calculoValorGasolina.toFixed(2))
+console.log (calculoValorGasolina.toFixed(2))
