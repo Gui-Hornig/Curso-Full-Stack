@@ -24,5 +24,5 @@ if (tipoCombustivel === 'Etanol') {
     console.log('Vaalor gasto com Etanol ', valorGasto.toFixed(2) )
 } else {
     const valorGasto = distanciaKm / kmPorLitro;
-    console.lo
+    console.log('Valor gasto com Gasolina ', valorGasto.toFixed(2))
 }
