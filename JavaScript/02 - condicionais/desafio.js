@@ -27,7 +27,7 @@ const distanciaKm = 1580023342;
 
 // console.log (calculoValorGasolina.toFixed(2))
 
-
+const precoLitroEtano = true || false
 if(precoLitroEtano){
     (distanciaKm / kmPorLitro) * precoLitroEtanol
 }else if (precoLitroGasolina){
