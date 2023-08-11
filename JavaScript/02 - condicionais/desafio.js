@@ -22,3 +22,4 @@ if (tipoCombustivel === precoLitroEtanol) {
 } else if (tipoCombustivel === precoLitroGasolina){
     (distanciaKm / kmPorLitro) * precoCombustivel;
 }
+console.log()
