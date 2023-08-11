@@ -15,7 +15,6 @@ const precoLitroEtanol = 5.79;
 const combustivelprecoLitroGasolina = 6.66;
 const kmPorLitro = 12;
 const distanciaKm = 1580023342;
-const combustivel = precoLitroEtanol || precoLitroGasolina
 
 const calculoValorEtanol = (distanciaKm / kmPorLitro) * precoLitroEtanol
 const calculoValorGasolina = (distanciaKm / kmPorLitro) * precoLitroGasolina
