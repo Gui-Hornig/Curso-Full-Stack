@@ -17,3 +17,6 @@ const kmPorLitro = 10;
 const distanciaKm = 100;
 const tipoCombustivel = 'Etanol';
 
+const litrosconsumidos = distanciaKm / kmPorLitro;
+
+if 
