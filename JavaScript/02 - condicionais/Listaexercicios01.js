@@ -1,0 +1,1 @@
+// faça um algoritimo que dado as 3 notas tiradas 

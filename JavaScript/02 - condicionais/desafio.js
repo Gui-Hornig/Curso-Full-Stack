@@ -26,3 +26,5 @@ if (tipoCombustivel === 'Etanol') {
     const valorGasto = litrosConsumidos * precoLitroGasolina;
     console.log('Valor gasto com Gasolina: ', valorGasto.toFixed(2))
 }
+
+
