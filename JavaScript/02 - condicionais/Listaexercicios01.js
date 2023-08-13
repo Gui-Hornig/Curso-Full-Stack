@@ -12,4 +12,4 @@ const notaA = 10
 const notaB = 20
 const notaC = 20
 
-const mediaAluno = (notaA + notaB + )
+const mediaAluno = (notaA + notaB + notaC)
