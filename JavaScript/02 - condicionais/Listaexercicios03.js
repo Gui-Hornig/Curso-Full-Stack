@@ -14,6 +14,10 @@ const debito = valorProduto * 0.9
 const emDuasVezes = valorProduto
 const dinheiroPix = valorProduto * 0.85 
 
-if (debito){
+const formaDePagamento = debito
+
+if (formaDePagamento === debito){
     console.log('Valor total a pagar', debito.toFixed(2) )
-} else if (){}
+} else if (formaDePagamento === dinheiroPix){
+    console.log('Valor total a pagar', dinheiroPix.toFixed(2))  
+}
