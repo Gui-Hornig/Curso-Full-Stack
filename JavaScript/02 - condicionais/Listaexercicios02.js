@@ -16,4 +16,9 @@
 // - Acima de 40 = Obesidade Grave;
 
 
-const peso = 
+const peso = 55.5 
+const altura = 1.75
+
+const calculoImc = peso / (altura * altura)
+
+console.log(calculoImc.toFixed(2))
