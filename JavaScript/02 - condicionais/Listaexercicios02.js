@@ -21,4 +21,6 @@ const altura = 1.75
 
 const calculoImc = peso / (altura * altura)
 
-console.log(calculoImc.toFixed(2))
+if (calculoImc < 18.5) {
+    console.log ('Você está abaixo do peso. Seu IMC atual é : ',calculoImc.toFixed(2))
+}
