@@ -18,4 +18,6 @@ if (mediaAluno < 5) {
     console.log ('Recuperacao')
 } else if (mediaAluno = 5 || 7) {
     console.log('Recuperacao')
-} else (mediaAluno > 7)
+} else (mediaAluno > 7) {
+    console.log ('Passou de Ano')
+}
