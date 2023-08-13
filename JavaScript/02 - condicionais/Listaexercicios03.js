@@ -12,16 +12,18 @@
 const valorProduto = 100.00;
 const debito = valorProduto * 0.9;
 const dinheiroPix = valorProduto * 0.85;
-const emDuasVezes = valorProduto;
-const acimaDe3vezes = valorProduto * 10%;
+const emDuasVezes = valorProduto === valorProduto;
+const acimaDe3vezes = valorProduto * 1.0;
 
 
-const formaDePagamento = emDuasVezes
+const formaDePagamento = acimaDe3vezes;
 
 if (formaDePagamento === debito){
-    console.log('Valor total a pagar', debito.toFixed(2) )
+    console.log('Valor total a pagar', debito.toFixed(2));
 } else if (formaDePagamento === dinheiroPix){
-    console.log('Valor total a pagar', dinheiroPix.toFixed(2))  
+    console.log('Valor total a pagar', dinheiroPix.toFixed(2));  
 } else if (formaDePagamento === emDuasVezes) {
-    console.log('Duas vezes sem juros o valor total R$',formaDePagamento.toFixed(2))
-} else if () {}
+    console.log('Duas vezes sem juros o valor total R$',emDuasVezes.toFixed(2));
+} else{
+    console.log('Três vezes com juros de 10%, valor total R$',acimaDe3vezes.toFixed(2));
+}
