@@ -16,11 +16,15 @@
 // - Acima de 40 = Obesidade Grave;
 
 
-const peso = 55.5 
+const peso = 66.5 
 const altura = 1.75
 
 const calculoImc = peso / (altura * altura)
 
 if (calculoImc < 18.5) {
-    console.log ('Você está abaixo do peso. Seu IMC atual é : ',calculoImc.toFixed(2))
+    console.log ('Você está abaixo do peso, seu IMC atual é: ',calculoImc.toFixed(2))
+} else if (calculoImc >= 18.5 && calculoImc < 25){
+    console.log ('Seu peso está normal, continue cuidando da saúde. IMC atutal é: ', calculoImc.toFixed(2))
+} else if (calculoImc >= 25 && calculoImc < 30 ){
+    console.log('Cuidado! Você está acima do peso, seu IMC atutal é: ', calculoImc.toFixed(2))
 }
