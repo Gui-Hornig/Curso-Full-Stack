@@ -13,7 +13,7 @@
 // const notaC = 6;
 // const notaTotalAluno = 30
 
-const mediaAluno = 30
+const mediaAluno = 17 / 3
 
 
   if (mediaAluno <= 5) {
