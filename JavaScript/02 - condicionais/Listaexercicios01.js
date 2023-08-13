@@ -8,17 +8,17 @@
 //  - Média entre 5 e 7, recuperação
 //  - Média acima de 7, passou de semestre
 
-const notaA = 10
-const notaB = 2
-const notaC = 6
+const notaA = 20;;
+const notaB = 2;
+const notaC = 6;
 
-const mediaAluno = (notaA + notaB + notaC) / 3
+const mediaAluno = (notaA + notaB + notaC) / 3;
 
 
   if (mediaAluno < 5) {
-    console.log('Recuperacao')
+    console.log('Recuperacao');
 } else if (mediaAluno, 5 || 7) {
-    console.log('Recuperacao')
+    console.log('Recuperacao');
 } else {
-    console.log('Passou de Ano')
+    console.log('Passou de Ano');
 }
