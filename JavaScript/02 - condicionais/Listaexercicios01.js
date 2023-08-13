@@ -4,7 +4,7 @@
 // Méddia = (nota 1 + nota 2 + nota 3 ) / 3
 
 // Classificação:
-//  - Média menor que 5, recuperação
+//  - Média menor que 5, recuprovado
 //  - Média entre 5 e 7, recuperação
 //  - Média acima de 7, passou de semestre
 
@@ -15,9 +15,9 @@ const notaC = 6;
 const mediaAluno = (notaA + notaB + notaC) / 3;
 
 
-  if (mediaAluno <= 5) {
+  if (mediaAluno < 5) {
     console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
-} else if (mediaAluno >= 5 && mediaAluno < 7 ) {
+} else if (mediaAluno >= 5 && mediaAluno <=7 ) {
     console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 } else if (mediaAluno >= 7 ){
     console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
