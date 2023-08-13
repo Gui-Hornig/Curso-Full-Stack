@@ -13,3 +13,7 @@ const notaB = 20
 const notaC = 20
 
 const mediaAluno = (notaA + notaB + notaC) / 3
+
+if (mediaAluno < 5) {
+    console.lgo 
+}
