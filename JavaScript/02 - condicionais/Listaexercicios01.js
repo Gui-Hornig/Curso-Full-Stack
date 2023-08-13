@@ -9,7 +9,7 @@
 //  - Média acima de 7, passou de semestre
 
 const notaA = 7;
-const notaB = 2;
+const notaB = 8;
 const notaC = 6;
 
 const mediaAluno = (notaA + notaB + notaC) / 3;
@@ -19,6 +19,6 @@ const mediaAluno = (notaA + notaB + notaC) / 3;
     console.log('Reprovou');
 } else if (mediaAluno >= 5 && mediaAluno < 7 ) {
     console.log('Recuperacao');
-} else if (mediaAluno >= 8 ){
+} else if (mediaAluno >= 7 ){
     console.log('Passou de Ano');
 }
