@@ -10,16 +10,16 @@
 
 const notaA = 7;
 const notaB = 8;
-const notaC = 6;
+const notaC = 1;
 
 const mediaAluno = (notaA + notaB + notaC) / 3;
 
 
   if (mediaAluno < 5) {
-    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
+    console.log('Burro! Você REPROVOU DE ANO! Sua média foi:', mediaAluno.toFixed(2));
 } else if (mediaAluno >= 5 && mediaAluno <=7 ) {
-    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
-} else if (mediaAluno >= 7 ){
+    console.log('Quase reprova em! Você esta em RECUPERAÇÃO! Sua média foi:', mediaAluno.toFixed(2));
+} else {
     console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 }
 
