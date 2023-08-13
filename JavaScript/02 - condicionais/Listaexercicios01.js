@@ -8,11 +8,12 @@
 //  - Média entre 5 e 7, recuperação
 //  - Média acima de 7, passou de semestre
 
-const notaA = 7;
-const notaB = 8;
-const notaC = 6;
+// const notaA = 7;
+// const notaB = 8;
+// const notaC = 6;
+// const notaTotalAluno = 30
 
-const mediaAluno = (notaA + notaB + notaC) / 3;
+const mediaAluno = 30
 
 
   if (mediaAluno <= 5) {
