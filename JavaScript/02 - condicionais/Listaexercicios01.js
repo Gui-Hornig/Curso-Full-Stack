@@ -16,9 +16,9 @@ const mediaAluno = (notaA + notaB + notaC) / 3;
 
 
   if (mediaAluno <= 5) {
-    console.log('Reprovou');
+    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 } else if (mediaAluno >= 5 && mediaAluno < 7 ) {
-    console.log('Recuperacao');
+    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 } else if (mediaAluno >= 7 ){
-    console.log('Passou de Ano');
+    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 }
