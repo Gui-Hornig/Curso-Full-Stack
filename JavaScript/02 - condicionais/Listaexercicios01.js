@@ -22,3 +22,5 @@ const mediaAluno = (notaA + notaB + notaC) / 3;
 } else if (mediaAluno >= 7 ){
     console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
 }
+
+console.log('Iahweh')
