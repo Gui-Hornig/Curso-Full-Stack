@@ -9,8 +9,8 @@
 //  - Média acima de 7, passou de semestre
 
 const notaA = 10
-const notaB = 20
-const notaC = 20
+const notaB = 2
+const notaC = 6
 
 const mediaAluno = (notaA + notaB + notaC) / 3
 
@@ -18,4 +18,4 @@ if (mediaAluno < 5) {
     console.log ('Recuperacao')
 } else if (mediaAluno = 5 || 7) {
     console.log('Recuperacao')
-} else (mediaAluno)
+} else (mediaAluno > 7)
