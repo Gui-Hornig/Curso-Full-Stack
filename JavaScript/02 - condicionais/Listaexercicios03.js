@@ -10,6 +10,10 @@
 // - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 
 const valorProduto = 100.00
-const debito = -10%
+const debito = valorProduto * 0.9
+const emDuasVezes = valorProduto
+const dinheiroPix = valorProduto * 0.85 
 
-if (de){}
+if (debito){
+    console.log('Valor total a pagar', debito.toFixed(2) )
+} else if (){}
