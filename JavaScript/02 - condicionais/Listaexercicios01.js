@@ -20,7 +20,7 @@ const mediaAluno = (notaA + notaB + notaC) / 3;
 } else if (mediaAluno >= 5 && mediaAluno <=7 ) {
     console.log('Quase reprova em! Você esta em RECUPERAÇÃO! Sua média foi:', mediaAluno.toFixed(2));
 } else {
-    console.log('Parabéns! Você PASSOU DE ANO! Sua média foi:', mediaAluno);
+    console.log('PASSOU! Não fez mais que sua obrigação. Sua média foI:', mediaAluno);
 }
 
 console.log('Iahweh')
