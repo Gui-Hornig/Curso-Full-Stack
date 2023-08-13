@@ -16,7 +16,7 @@ const mediaAluno = (notaA + notaB + notaC) / 3
 
 if (mediaAluno < 5) {
     console.log('Recuperacao')
-} else if (mediaAluno = 5  7) {
+} else if (mediaAluno = 5 || 7) {
     console.log('Recuperacao')
 }
 else (mediaAluno > 7) {
