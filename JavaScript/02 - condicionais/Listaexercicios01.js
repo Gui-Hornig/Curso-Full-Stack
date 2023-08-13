@@ -10,7 +10,7 @@
 
 const notaA = 7;
 const notaB = 8;
-const notaC = 1;
+const notaC = 4;
 
 const mediaAluno = (notaA + notaB + notaC) / 3;
 
@@ -20,7 +20,7 @@ const mediaAluno = (notaA + notaB + notaC) / 3;
 } else if (mediaAluno >= 5 && mediaAluno <=7 ) {
     console.log('Quase reprova em! Você esta em RECUPERAÇÃO! Sua média foi:', mediaAluno.toFixed(2));
 } else {
-    console.log('PASSOU! Não fez mais que sua obrigação. Sua média foI:', mediaAluno);
+    console.log('PASSOU! Não fez mais que sua obrigação. Sua média foI:', mediaAluno.toFixed(2));
 }
 
 console.log('Iahweh')
