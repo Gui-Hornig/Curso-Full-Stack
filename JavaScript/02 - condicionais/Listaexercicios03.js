@@ -13,7 +13,7 @@ const valorProduto = 100.00;
 const debito = valorProduto * 0.9;
 const dinheiroPix = valorProduto * 0.85;
 const emDuasVezes = valorProduto === valorProduto;
-const acimaDe3vezes = valorProduto * 1.0;
+const acimaDe3vezes = valorProduto * 0.1000 ;
 
 
 const formaDePagamento = acimaDe3vezes;
