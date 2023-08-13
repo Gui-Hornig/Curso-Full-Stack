@@ -8,7 +8,7 @@
 //  - Média entre 5 e 7, recuperação
 //  - Média acima de 7, passou de semestre
 
-const notaA = 20;
+const notaA = 7;
 const notaB = 2;
 const notaC = 6;
 
