@@ -11,7 +11,7 @@ function calcularImc(peso, altura) {
 
 function classificarImc (calculoImc) {
     if (calculoImc < 18.5) {
-        return  'Você está abaixo do peso, seu IMC atual é: ',calculoImc.toFixed(2);
+        return  {mensagem: 'Você está abaixo do peso, seu IMC atual é: ', valor: calculoImc.toFixed(2)}
     } else if (calculoImc >= 18.5 && calculoImc < 25){
         return  'Seu peso está normal, continue cuidando da saúde. IMC atutal é: ', calculoImc.toFixed(2);
     } else if (calculoImc >= 25 && calculoImc < 30 ){
@@ -28,4 +28,6 @@ const peso = 13.5;
 const altura = 1.75;
 
 const calculoImc = calcularImc(peso, altura);
-console.log(classificarImc(calculoImc));
+const resultadoImc = classificarImc(calculoImc);
+
+console.log(resultadoImc.mensagem + resultadoImc.valor) 
