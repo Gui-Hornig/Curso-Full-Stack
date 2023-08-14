@@ -2,6 +2,9 @@
 
 // REFATORANDO O CODIGO PARA UTILIZAR FUNCOES
 
+
+
+
 function calcularImc(peso, altura) {
     return peso / Math.pow(altura, 2);
 }
@@ -21,9 +24,8 @@ function classificarImc (calculoImc) {
     
 }
 
-
-const peso = 123.5;
+const peso = 13.5;
 const altura = 1.75;
 
-const calculoImc = peso / (altura * altura);
+const calculoImc = calcularImc(peso, altura);
 console.log(classificarImc(calculoImc));
