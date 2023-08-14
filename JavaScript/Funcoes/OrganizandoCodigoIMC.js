@@ -44,7 +44,7 @@ function classificarImc (calculoImc) {
     
 }
 
-function main() {
+(function () {
     const peso = 100.5;
     const altura = 1.75;
     
@@ -52,6 +52,5 @@ function main() {
     const resultadoImc = classificarImc(calculoImc);
     
     console.log(resultadoImc.mensagem + resultadoImc.valor) 
-}
-
-main();
+})()// Função imediatamente invocada, cria e já executa, quando adicionamos os parenteses ()
+// Não precisa nomear a função e ela só pode ser acessada dentro dos parenteses;
