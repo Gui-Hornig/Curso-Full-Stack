@@ -1,7 +1,8 @@
 // Um pequeno trecho de código que podemos invocar novamente para utilizar novamente.
 
-function seyMyName(name) {
+function sayMyName(name) {
     console.log('Your name is: ' + name)
 }
 
-seyMyName('Guilherme')
+sayMyName('Guilherme')
+sayMyName('Natalia')
