@@ -1,10 +1,4 @@
 
-const peso = 123.5;
-const altura = 1.75;
-// Math.pow(altura, 2) Utilizando esse biblioteca podemos fazer numeros ao quadradro, cubo etc...
-const calculoImc = peso / (altura * altura);
-
-
 
 // REFATORANDO O CODIGO PARA UTILIZAR FUNCOES
 
@@ -26,3 +20,10 @@ function classificarImc (calculoImc) {
     };
     
 }
+
+
+const peso = 123.5;
+const altura = 1.75;
+
+const calculoImc = peso / (altura * altura);
+console.log(classificarImc(calculoImc));
