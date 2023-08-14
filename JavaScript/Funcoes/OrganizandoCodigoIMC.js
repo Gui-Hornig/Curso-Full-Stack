@@ -22,6 +22,8 @@ if (calculoImc < 18.5) {
 // O objeto é então armazenado na variável resultadoImc, e a mensagem junto com o valor é exibida no console.log. 
 // Isso torna o código mais organizado e legível ao lidar com diferentes partes das informações de saída.
 
+
+
 // Código REFATORDO : 
 function calcularImc(peso, altura) {
     return peso / Math.pow(altura, 2);
