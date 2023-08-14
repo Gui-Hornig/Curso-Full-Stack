@@ -1,9 +1,10 @@
 
 
 // REFATORANDO O CODIGO PARA UTILIZAR FUNCOES
-
-
-
+// Utilzei um Objeto {} para retornar a mensagem junto com o valor do IMC da pessoa.
+// a função classificarImc retorna um objeto contendo uma mensagem e o valor do IMC formatado. 
+// O objeto é então armazenado na variável resultadoImc, e a mensagem junto com o valor é exibida no console.log. 
+// Isso torna o código mais organizado e legível ao lidar com diferentes partes das informações de saída.
 
 function calcularImc(peso, altura) {
     return peso / Math.pow(altura, 2);
@@ -24,10 +25,14 @@ function classificarImc (calculoImc) {
     
 }
 
-const peso = 150.5;
-const altura = 1.75;
+function main() {
+    const peso = 100.5;
+    const altura = 1.75;
+    
+    const calculoImc = calcularImc(peso, altura);
+    const resultadoImc = classificarImc(calculoImc);
+    
+    console.log(resultadoImc.mensagem + resultadoImc.valor) 
+}
 
-const calculoImc = calcularImc(peso, altura);
-const resultadoImc = classificarImc(calculoImc);
-
-console.log(resultadoImc.mensagem + resultadoImc.valor) 
+main();
