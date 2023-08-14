@@ -13,10 +13,11 @@ const valorProduto = 100.00;
 const debito = valorProduto * 0.9;
 const dinheiroPix = valorProduto * 0.85;
 const emDuasVezes = valorProduto;
-const acimaDe3vezes = valorProduto * 1.1 ;
+const acimaDe3vezes = valorProduto + (valorProduto * 0.1) ;
+// const acimaDe3vezes = valorProduto * 1.1 ;
 
 
-const formaDePagamento = debito;
+const formaDePagamento = acimaDe3vezes;
 
 if (formaDePagamento === debito){
     console.log('Valor total da compra', debito.toFixed(2));
