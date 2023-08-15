@@ -50,3 +50,6 @@ const formaDePagamento = 4;
     } else if (formaDePagamento === 4){
         console.log('Três vezes com juros de 10%, valor total da compra R$', aplicarJuroso(valorProduto, 10).toFixed(2));
     }
+
+
+    
