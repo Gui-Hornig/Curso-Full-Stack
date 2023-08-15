@@ -16,3 +16,5 @@ function verificarIdade(idade) {
     }
 }
 verificarIdade(18, escreveSeuNome());
+
+
