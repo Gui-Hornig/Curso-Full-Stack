@@ -17,3 +17,5 @@ if (formaDePagamento === debito){
 } else if (formaDePagamento === acimaDe3vezes){
     console.log('Três vezes com juros de 10%, valor total da compra R$',acimaDe3vezes.toFixed(2));
 }
+
+
