@@ -28,7 +28,7 @@ const formaDePagamento = 'Duas vezes';
     } else if (formaDePagamento === 'Duas vezes'){
         console.log ('Valor total da compra', aplicarDesconto(valorProduto, 15).toFixed(2));  
     } else if (formaDePagamento === 'xxx') {
-        return { mensagem: 'Duas vezes sem juros o valor total da compra R$', valor: emDuasVezes.toFixed(2)};
+        console.log( mensagem: 'Duas vezes sem juros o valor total da compra R$', valor: emDuasVezes.toFixed(2)};
     } else if (formaDePagamento === acimaDe3vezes){
         return { mensagem: 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
     }
