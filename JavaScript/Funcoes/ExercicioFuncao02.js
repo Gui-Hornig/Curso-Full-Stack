@@ -29,5 +29,5 @@ const formaDePagamento = 4;
     } else if (formaDePagamento === 3) {
         console.log( 'Duas vezes sem juros, valor total da compra R$', valorProduto.toFixed(2));
     } else if (formaDePagamento === 4){
-        return { mensagem: 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
+        console.log('Três vezes com juros de 10%, valor total da compra R$', aplicarJuroso(valorProduto, 10).toFixed(2));
     }
