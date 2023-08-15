@@ -21,13 +21,7 @@ const formaDePagamento = acimaDe3vezes;
 
 /// Refatorar utilizando funcao
 
-function calculoDePagamento(valorProduto, debito, dinheiroPix, emDuasVezes, acimaDe3vezes){
-    const valorProduto = 100.00;
-    const debito = valorProduto * 0.9;
-    const dinheiroPix = valorProduto * 0.85;
-    const emDuasVezes = valorProduto;
-    const acimaDe3vezes = valorProduto + (valorProduto * 0.1);
-}
+
 
 function meioDePagamento(formaDePagamento){
     if (formaDePagamento === debito){
@@ -41,4 +35,17 @@ function meioDePagamento(formaDePagamento){
     }
 }
 
-meioDePagamento('debito')
+
+function calculoDePagamento(valorProduto, debito, dinheiroPix, emDuasVezes, acimaDe3vezes){
+    const valorProduto = 100.00;
+    const debito = valorProduto * 0.9;
+    const dinheiroPix = valorProduto * 0.85;
+    const emDuasVezes = valorProduto;
+    const acimaDe3vezes = valorProduto + (valorProduto * 0.1);
+    
+    const formaDePagamento = calculoDePagamento(valorProduto, debito, dinheiroPix, emDuasVezes, acimaDe3vezes)
+    const resultado = meioDePagamento(formaDePagamento)
+
+    console.log(resultado.mensagem + resultado.valor) 
+}
+
