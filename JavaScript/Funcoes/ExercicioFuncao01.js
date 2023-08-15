@@ -1,15 +1,16 @@
 function escreveSeuNome(nome, cargo) {
-    console.log('Olá! Meu nome é '+ nome +' Sou '+ cargo +' a 3 anos.')
+    return nome 
+    //('Olá! Meu nome é '+ nome +' Sou '+ cargo +' a 3 anos.')
 }
-escreveSeuNome('Guilherme.', 'engenheiro de Software')
+;; escreveSeuNome('Guilherme')
 
 
 // Funcao que fverifica se o usuario e maior de 18 ano
 
 
-function verificarIdade(idade, ) {
+function verificarIdade(idade) {
     if (idade >= 18){
-        console.log ('Parabens,'+ escreveSeuNome('guilherme') + '! Ja pode tirar a carteira pois voce tem' + idade + 'anos e ja e o suficiente.');
+        console.log ('Parabens, '+ escreveSeuNome('Guilherme') + '! Ja pode tirar a carteira pois voce tem' + idade + 'anos e ja e o suficiente.');
     } else {
         console.log ('Calma! Falta apenas',  18 - idade, 'anos para completar a maioridade' );
     }
