@@ -20,11 +20,11 @@ function aplicarJuroso(valor, juros){
 }
 
 const valorProduto = 100.00;
-const formaDePagamento = debito;
+const formaDePagamento = 'debito';
 
-function resultado(formaDePagamento){
-    if (formaDePagamento === debito){
-        return { mensagem: 'Valor total da compra', valor: debito.toFixed(2)};
+    if (formaDePagamento === 'debito'){
+       console.log ('Valor total da compra',aplicarDesconto(valorProduto, 10))
+        
     } else if (formaDePagamento === dinheiroPix){
         return { mensagem: 'Valor total da compra', valor: dinheiroPix.toFixed(2)};  
     } else if (formaDePagamento === emDuasVezes) {
@@ -32,4 +32,3 @@ function resultado(formaDePagamento){
     } else if (formaDePagamento === acimaDe3vezes){
         return { mensagem: 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
     }
-}
