@@ -19,3 +19,16 @@ if (formaDePagamento === debito){
 }
 
 
+/// Refatorar utilizando funcao
+
+function meioDePagamento(formaDePagamento){
+    if (formaDePagamento === debito){
+        console.log('Valor total da compra', debito.toFixed(2));
+    } else if (formaDePagamento === dinheiroPix){
+        console.log('Valor total da compra', dinheiroPix.toFixed(2));  
+    } else if (formaDePagamento === emDuasVezes) {
+        console.log('Duas vezes sem juros o valor total da compra R$',emDuasVezes.toFixed(2));
+    } else if (formaDePagamento === acimaDe3vezes){
+        console.log('Três vezes com juros de 10%, valor total da compra R$',acimaDe3vezes.toFixed(2));
+    }
+}
