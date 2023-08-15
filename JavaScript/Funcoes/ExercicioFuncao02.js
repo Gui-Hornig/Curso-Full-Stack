@@ -21,6 +21,12 @@ const formaDePagamento = acimaDe3vezes;
 
 /// Refatorar utilizando funcao
 
+function aplicarDesconto(valor , desconto){
+    return (valor -(valor * (desconto / 100)));
+}
+function aplicarJuroso(valor, juros){
+    ret
+}
 
 
 function meioDePagamento(formaDePagamento){
@@ -42,7 +48,7 @@ function calculoDePagamento(valorProduto, debito, dinheiroPix, emDuasVezes, acim
     const dinheiroPix = valorProduto * 0.85;
     const emDuasVezes = valorProduto;
     const acimaDe3vezes = valorProduto + (valorProduto * 0.1);
-    
+
     const formaDePagamento = calculoDePagamento(valorProduto, debito, dinheiroPix, emDuasVezes, acimaDe3vezes)
     const resultado = meioDePagamento(formaDePagamento)
 
