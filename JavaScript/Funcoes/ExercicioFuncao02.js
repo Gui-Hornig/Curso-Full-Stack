@@ -21,6 +21,16 @@ const formaDePagamento = acimaDe3vezes;
 
 /// Refatorar utilizando funcao
 
+function(){
+    const valorProduto = 100.00;
+    const debito = valorProduto * 0.9;
+    const dinheiroPix = valorProduto * 0.85;
+    const emDuasVezes = valorProduto;
+    const acimaDe3vezes = valorProduto + (valorProduto * 0.1);
+
+    const formaDePagamento = acimaDe3vezes;
+}
+
 function meioDePagamento(formaDePagamento){
     if (formaDePagamento === debito){
         return { mensagem: 'Valor total da compra', valor: debito.toFixed(2)};
@@ -33,12 +43,3 @@ function meioDePagamento(formaDePagamento){
     }
 }
 
-function(){
-    const valorProduto = 100.00;
-    const debito = valorProduto * 0.9;
-    const dinheiroPix = valorProduto * 0.85;
-    const emDuasVezes = valorProduto;
-    const acimaDe3vezes = valorProduto + (valorProduto * 0.1);
-
-    const formaDePagamento = acimaDe3vezes;
-}
