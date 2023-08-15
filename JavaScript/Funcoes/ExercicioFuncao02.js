@@ -52,4 +52,16 @@ const formaDePagamento = 4;
     }
 
 
+    // par ou inpa com funcao 
+
+    function parOuInpar(entradaNumero){
+        if (entradaNumero%2 === 0){
+            return 'O número '+  entradaNumero +' é PAR!'
+        } else {
+            return 'O número '+  entradaNumero +' é Impar!'
+        };
+    }
+    const resultadoParImpar = parOuInpar(11)
+    console.log(resultadoParImpar)
     
+    console.log(parOuInpar(20))
