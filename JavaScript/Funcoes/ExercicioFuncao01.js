@@ -9,9 +9,9 @@ escreveSeuNome('Guilherme.', 'engenheiro de Software')
 
 function verificarIdade(idade) {
     if (idade >= 18){
-        console.log ('Parabens! Ja pode tirar a carteira pois voce tem', idade, 'anos e ja e o suficiente')
+        console.log ('Parabens! Ja pode tirar a carteira pois voce tem', idade, 'anos e ja e o suficiente.');
     } else {
-        console.log ('Calma! Ainda falta',  18 - maiorDeIdade, 'anos para completar a maioridade' )
+        console.log ('Calma! Falta apenas',  18 - idade, 'anos para completar a maioridade' );
     }
 }
-verificarIdade(18)
+verificarIdade(17);
