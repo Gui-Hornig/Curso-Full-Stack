@@ -25,10 +25,10 @@ function meioDePagamento(formaDePagamento){
     if (formaDePagamento === debito){
         return { mensagem: 'Valor total da compra', valor: debito.toFixed(2)};
     } else if (formaDePagamento === dinheiroPix){
-        return { 'Valor total da compra', valor: dinheiroPix.toFixed(2)};  
+        return { mensagem: 'Valor total da compra', valor: dinheiroPix.toFixed(2)};  
     } else if (formaDePagamento === emDuasVezes) {
-        return { 'Duas vezes sem juros o valor total da compra R$', valor: emDuasVezes.toFixed(2)};
+        return { mensagem: 'Duas vezes sem juros o valor total da compra R$', valor: emDuasVezes.toFixed(2)};
     } else if (formaDePagamento === acimaDe3vezes){
-        return { 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
+        return { mensagem: 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
     }
 }
