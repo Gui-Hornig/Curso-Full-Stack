@@ -20,15 +20,14 @@ function aplicarJuroso(valor, juros){
 }
 
 const valorProduto = 100.00;
-const formaDePagamento = 'Duas vezes';
+const formaDePagamento = 4;
 
-    if (formaDePagamento === 'debito'){
+    if (formaDePagamento === 1){
        console.log ('Valor total da compra',aplicarDesconto(valorProduto, 10).toFixed(2))
-        
-    } else if (formaDePagamento === 'Duas vezes'){
+        } else if (formaDePagamento === 2){
         console.log ('Valor total da compra', aplicarDesconto(valorProduto, 15).toFixed(2));  
-    } else if (formaDePagamento === 'xxx') {
-        console.log( mensagem: 'Duas vezes sem juros o valor total da compra R$', valor: emDuasVezes.toFixed(2)};
-    } else if (formaDePagamento === acimaDe3vezes){
+    } else if (formaDePagamento === 3) {
+        console.log( 'Duas vezes sem juros, valor total da compra R$', valorProduto.toFixed(2));
+    } else if (formaDePagamento === 4){
         return { mensagem: 'Três vezes com juros de 10%, valor total da compra R$', valor: acimaDe3vezes.toFixed(2)};
     }
