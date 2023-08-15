@@ -25,7 +25,7 @@ function aplicarDesconto(valor , desconto){
     return (valor -(valor * (desconto / 100)));
 }
 function aplicarJuroso(valor, juros){
-    ret
+    return (valor + (valor * (juros / 100)));
 }
 
 
