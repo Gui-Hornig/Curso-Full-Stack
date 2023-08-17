@@ -19,10 +19,11 @@ console.log(valor);
 // atribuindo uma funcao ao objeto
 
 const humanos = {
-    nome  : 'Guilherme',
-    idade : 24,
-    proficao : 'Engenheiro de Software',
+    nome: 'Guilherme',
+    idade: 24,
+    profissao: 'Engenheiro de Software',
     descrever: function (){
-        
+        console.log(`Olá! Meu nome é ${this.nome} tenho ${this.idade} e atualmente sou ${this.profissao}.`)
     }
 }
+humanos.descrever()
