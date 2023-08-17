@@ -25,9 +25,15 @@ const humanos = {
     descrever: function (){
         console.log(`Olá! Meu nome é ${this.nome} tenho ${this.idade} e atualmente sou ${this.profissao}.`)
     }
-}
-humanos.descrever() 
+};
+humanos.descrever(); 
 
-humanos.nome = 'Marcos'
+humanos.nome = 'Marcos';
+
+humanos.descrever();
+
+humanos.descrever = function () {
+    console.log(`Ola! Eu sou o  ${this.nome}.`);
+}
 
 humanos.descrever()
