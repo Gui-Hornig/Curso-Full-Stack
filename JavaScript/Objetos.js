@@ -37,3 +37,7 @@ humanos.descrever = function () {
 }
 
 humanos.descrever()
+
+// acessando dinamicamente os valores do objeto
+
+const atributo = 'idade'
