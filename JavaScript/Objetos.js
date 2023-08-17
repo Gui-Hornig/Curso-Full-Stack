@@ -5,4 +5,12 @@ const valor = {
 
 console.log(valor.nome);
 console.log(valor.idade);
-console.log(valor)
+console.log(valor);
+
+
+valor.altura = 1.75;
+console.log(valor);
+
+delete valor.idade;
+
+console.log(valor);
