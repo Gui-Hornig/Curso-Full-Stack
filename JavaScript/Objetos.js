@@ -20,7 +20,7 @@ console.log(valor);
 
 const humanos = {
     nome: 'Guilherme',
-    idade: 24,
+    idade: 23,
     profissao: 'Engenheiro de Software',
     descrever: function (){
         console.log(`Olá! Meu nome é ${this.nome} tenho ${this.idade} e atualmente sou ${this.profissao}.`)
@@ -41,3 +41,5 @@ humanos.descrever()
 // acessando dinamicamente os valores do objeto
 
 const atributo = 'idade'
+
+console.log(humanos[atributo])
