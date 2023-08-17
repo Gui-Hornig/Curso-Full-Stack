@@ -23,3 +23,7 @@ segundoHumano.salario = 'R$1.000';
 
 primeiroHumano.descrever();
 segundoHumano.descrever();
+
+
+// Classe é a definição do que deve ser tipo um 'Padrão a ser seguido']
+// Instancia é a ocorrencia do Objeto
