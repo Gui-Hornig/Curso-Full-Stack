@@ -10,3 +10,6 @@ class Humanos {
     }
 }
 
+const primeiroHumano = new Humanos();
+primeiroHumano.nome = 'Guilherme';
+primeiroHumano.idade = '23';
