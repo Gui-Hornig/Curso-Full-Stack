@@ -4,4 +4,5 @@ const valor = {
 };
 
 console.log(valor.nome);
-con
+console.log(valor.idade);
+console.log(valor)
