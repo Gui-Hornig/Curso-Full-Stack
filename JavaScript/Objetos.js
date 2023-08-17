@@ -18,4 +18,11 @@ console.log(valor);
 
 // atribuindo uma funcao ao objeto
 
-const humanos = {}
+const humanos = {
+    nome  : 'Guilherme',
+    idade : 24,
+    proficao : 'Engenheiro de Software',
+    descrever: function (){
+        
+    }
+}
