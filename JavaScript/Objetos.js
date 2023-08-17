@@ -26,4 +26,8 @@ const humanos = {
         console.log(`Olá! Meu nome é ${this.nome} tenho ${this.idade} e atualmente sou ${this.profissao}.`)
     }
 }
+humanos.descrever() 
+
+humanos.nome = 'Marcos'
+
 humanos.descrever()
