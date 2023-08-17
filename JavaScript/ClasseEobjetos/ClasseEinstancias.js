@@ -5,7 +5,7 @@ class Humanos {
     salario;
 
     descrever() {
-        console.log(`Sou ${this.nome} tennho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes.`);
+        console.log(`Sou ${this.nome} tenho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes.`);
     }
 }
 
