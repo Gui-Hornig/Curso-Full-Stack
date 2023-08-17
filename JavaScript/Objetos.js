@@ -14,3 +14,8 @@ console.log(valor);
 delete valor.idade;
 
 console.log(valor);
+
+
+// atribuindo uma funcao ao objeto
+
+const humanos = {}
