@@ -43,3 +43,6 @@ humanos.descrever()
 const atributo = 'idade'
 
 console.log(humanos[atributo])
+
+
+
