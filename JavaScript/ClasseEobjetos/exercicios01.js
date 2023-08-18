@@ -18,7 +18,7 @@ class Carros {
     }
 
     descricao() {
-        console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor.cor} e gasta R$ ${this.valorTotalPercurso} de gaasoina em uma rota de `, KilmetrosRodado, `km rodados`) 
+        console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor} e gasta R$ ${this.valorTotalPercurso.toFixed(2)} de gasolina em uma rota de`, KilmetrosRodado,`km rodados.`) 
     }
 }
 
