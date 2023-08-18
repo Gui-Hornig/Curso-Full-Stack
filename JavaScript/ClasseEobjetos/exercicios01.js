@@ -11,8 +11,8 @@ class Carros{
     modelo;
     marca;
     cor;
-    gastoPorKm = valorCombustiel * KilmetrosRodado
+    gastoPorKm () {
+        return valorCombustiel * KilmetrosRodado }
 }
 
-let mm = Carros.gastoPorKm
-console.log(mm)
+
