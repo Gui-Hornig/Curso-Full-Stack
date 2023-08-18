@@ -8,5 +8,8 @@ class Carros{
     modelo;
     marca;
     cor;
-    gastoPorKm = valorCombustiel * Kilmetros
+    gastoPorKm = valorCombustiel * KilmetrosRodado
 }
+
+const valorCombustiel = 5.66
+const KilmetrosRodado = 100
