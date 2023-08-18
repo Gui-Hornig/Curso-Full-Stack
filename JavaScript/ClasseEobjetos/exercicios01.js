@@ -4,14 +4,22 @@ Os carros possuem uma marca, uma cor  um gasto medio de combustivel por km rodad
 Crie um metodo que dado a quantidade e opreco do combustivel nos de o valor gasto em reais para realizar este percurso.
 */
 
-let  valorCombustiel = 5.66
-let KilmetrosRodado = 100 
+let valorCombustiel = 5.66
+let KilmetrosRodado = 100
 
-class Carros{
+class Carros {
     modelo;
     marca;
     cor;
-    gastoPorKm = valorCombustiel * KilmetrosRodado
+    gastoPorKm; // = valorCombustiel * KilmetrosRodado
+
+
+
+    constructor(modelo, marca, cor, gastoPorKm) {
+        this.= nome;
+        this.idade = idade;
+        this.profissao = profissao;
+        this.salario = salario;
+        this.anoDeNascimento = 2023 - idade;
+    }
 }
-
-

@@ -31,11 +31,7 @@ segundoHumano.descrever();
 // Instancia com Constructor 
 
 class humanos2 {
-    nome;
-    idade;
-    profissao;
-    salario;
-
+   
     constructor(nome, idade, profissao, salario) {
         this.nome = nome;
         this.idade = idade;
@@ -46,7 +42,7 @@ class humanos2 {
 
         
     descrever() {
-        console.log(`Sou ${this.nome} tenho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes. Nasci no ano ${this.anoDeNascimento}.`)
+        console.log(`Sou ${this.nome} tenho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes. Nasci no ano ${this.anoDeNascimento}`)
     }
 
 
