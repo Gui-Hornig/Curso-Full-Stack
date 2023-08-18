@@ -27,3 +27,4 @@ class Carros {
 };
 
 let nomeDoCarro = new Carros ('Uno', 'Fiat', 'Preto', 10);
+console.log(Carros)
