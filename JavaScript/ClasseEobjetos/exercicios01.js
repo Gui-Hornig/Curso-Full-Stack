@@ -14,7 +14,7 @@ class Carros {
         this.marca = marca;
         this.cor = cor;
         this.gastoPorKm = gastoPorKm;
-        this.valorTotalPercurso = (this.gastoPorKm * (KilmetrosRodado * valorCombustiel).toFixed(2) ) 
+        this.valorTotalPercurso = R$ (valorCombustiel * (KilmetrosRodado / gastoPorKm).toFixed(2)) 
     }
 
     descricao() {
