@@ -8,11 +8,6 @@ let valorCombustiel = 5.66
 let KilmetrosRodado = 100
 
 class Carros {
-    modelo;
-    marca;
-    cor;
-    gastoPorKm;
-
 
     constructor(modelo, marca, cor, gastoPorKm) {
         this.modelo = modelo;
@@ -22,9 +17,10 @@ class Carros {
     }
 
     valorTotalPercurso () {
-        return  this.gastoPorKm * (KilmetrosRodado * valorCombustiel)
-    }
+        console.log(this.gastoPorKm * (KilmetrosRodado * valorCombustiel))
+        
 };
 
 let nomeDoCarro = new Carros ('Uno', 'Fiat', 'Preto', 10);
-console.log(Carros)
+// console.log(nomeDoCarro)
+nomeDoCarro.valorTotalPercurso()
