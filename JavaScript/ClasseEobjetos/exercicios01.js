@@ -4,4 +4,9 @@ Os carros possuem uma marca, uma cor  um gasto medio de combustivel por km rodad
 Crie um metodo que dado a quantidade e opreco do combustivel nos de o valor gasto em reais para realizar este percurso.
 */
 
-class (){}
+class Carros{
+    modelo;
+    marca;
+    cor;
+    gastoPorKm = valorCombustiel * Kilmetros
+}
