@@ -13,3 +13,6 @@ class Carros{
     cor;
     gastoPorKm = valorCombustiel * KilmetrosRodado
 }
+
+let mm = Carros.gastoPorKm
+console.log(mm)
