@@ -16,11 +16,12 @@ class Carros {
         this.gastoPorKm = gastoPorKm;
     }
 
-    valorTotalPercurso () {
-        console.log(this.gastoPorKm * (KilmetrosRodado * valorCombustiel))
-        
-};
+    valorTotalPercurso() {
+       console.log( this.gastoPorKm * (KilmetrosRodado * valorCombustiel) )
 
-let nomeDoCarro = new Carros ('Uno', 'Fiat', 'Preto', 10);
-// console.log(nomeDoCarro)
+    };
+}
+
+let nomeDoCarro = new Carros('Uno', 'Fiat', 'Preto', 10);
+console.log(nomeDoCarro)
 nomeDoCarro.valorTotalPercurso()

@@ -49,11 +49,11 @@ class humanos2 {
 };
 
 const humano1 = new humanos2('Guilherme', 23, 'Desenvolvedor', 'R$15.000.00');
-const humano2 = new humanos2('Vitor', 999, 'agricultor', 'R$2.000.00')
+const humano3 = new humanos2('Vitor', 999, 'agricultor', 'R$2.000.00')
 
 console.log(humano1)
-console.log(humano2)
+console.log(humano3)
 
 
 humano1.descrever()
-humano2.descrever()
+humano3.descrever()
