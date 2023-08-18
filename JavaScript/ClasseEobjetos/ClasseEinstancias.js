@@ -52,7 +52,8 @@ const humano1 = new humanos2('Guilherme', 23, 'Desenvolvedor', 'R$15.000.00');
 const humano2 = new humanos2('Vitor', 99999, 'agricultor', 'R$2.000.00')
 
 console.log(humano1)
-console.log
+console.log(humano2)
 
 
 humano1.descrever()
+humano2.descrever()
