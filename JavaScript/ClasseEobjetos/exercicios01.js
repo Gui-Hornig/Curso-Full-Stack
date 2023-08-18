@@ -5,7 +5,7 @@ Crie um metodo que dado a quantidade e opreco do combustivel nos de o valor gast
 */
 
 let valorCombustiel = 5.66
-let KilmetrosRodado = 100
+let KilmetrosRodado = 101
 
 class Carros {
 
@@ -14,14 +14,14 @@ class Carros {
         this.marca = marca;
         this.cor = cor;
         this.gastoPorKm = gastoPorKm;
-        this.valorTotalPercurso = R$ (valorCombustiel * (KilmetrosRodado / gastoPorKm).toFixed(2)) 
+        this.valorTotalPercurso = (valorCombustiel * (KilmetrosRodado / gastoPorKm).toFixed(2)) 
     }
 
     descricao() {
-        console.log (`O carro ${this.modelo}`) 
-
-    };
+        console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor.cor} e gasta R$ ${this.valorTotalPercurso} de gaasoina em uma rota de `, KilmetrosRodado, `km rodados`) 
+    }
 }
 
-let nomeDoCarro = new Carros('Uno', 'Fiat', 'Preto', 10);
-console.log(nomeDoCarro)
+let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
+// console.log(nomeDoCarro)
+carro1.descricao()
