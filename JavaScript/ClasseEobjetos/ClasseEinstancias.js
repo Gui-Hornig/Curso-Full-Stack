@@ -28,3 +28,17 @@ segundoHumano.salario = 'R$1.000';
 primeiroHumano.descrever();
 segundoHumano.descrever();
 
+// Instancia com Constructor 
+
+class humanos2 {
+    nome;
+    idade;
+    profissao;
+    salario;
+
+    descrever() {
+        console.log(`Sou ${this.nome} tenho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes.`)
+    }
+}
+
+constructor(nome, idade, profissao, salario)
