@@ -25,7 +25,9 @@ class Carros {
 
 let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
 let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2)
+let carro3 = new Carros('Sandero', 'Renoult', 'branco', 20)
 // console.log(nomeDoCarro)
 carro1.descricao()
 carro2.descricao()
+carro3.descricao()
 
