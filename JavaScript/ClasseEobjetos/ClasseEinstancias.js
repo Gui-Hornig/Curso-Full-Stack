@@ -41,4 +41,9 @@ class humanos2 {
     }
 }
 
-constructor(nome, idade, profissao, salario)
+constructor(nome, idade, profissao, salario) {
+    this.nome = nome;
+    this.idade = idade;
+    this.profissao = profissao;
+    
+}
