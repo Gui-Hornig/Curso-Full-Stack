@@ -18,15 +18,15 @@ class Carros {
     }
 
     descricao() {
-        console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor} e gasta R$ ${this.valorTotalPercurso.toFixed(2)} de gasolina em uma rota de`, KilmetrosRodado,`km rodados.`) 
+        console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor} e gasta R$ ${this.valorTotalPercurso.toFixed(2)} de gasolina em uma rota de`, KilmetrosRodado,`km rodados, pois ele faz ${this.gastoPorKm}km por litro de combustivel.`) 
     }
 
 }
 
 let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
 let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2)
-let carro3 = new Carros('Sandero', 'Renoult', 'branco', 20)
-// console.log(nomeDoCarro)
+let carro3 = new Carros('Sandero', 'Renoult', 'branca', 20)
+console.log(Carros)
 carro1.descricao()
 carro2.descricao()
 carro3.descricao()
