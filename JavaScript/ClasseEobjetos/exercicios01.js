@@ -20,8 +20,12 @@ class Carros {
     descricao() {
         console.log (`O carro ${this.modelo} da marca ${this.marca} tem a cor ${this.cor} e gasta R$ ${this.valorTotalPercurso.toFixed(2)} de gasolina em uma rota de`, KilmetrosRodado,`km rodados.`) 
     }
+
 }
 
 let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
+let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2)
 // console.log(nomeDoCarro)
 carro1.descricao()
+carro2.descricao()
+
