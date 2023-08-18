@@ -24,4 +24,6 @@ class Carros {
     valorTotalPercurso () {
         return  this.gastoPorKm * (KilmetrosRodado * valorCombustiel)
     }
-}
+};
+
+let nomeDoCarro = new Carros ('Uno', 'Fiat', 'Preto', 10);
