@@ -23,7 +23,7 @@ class Humanos {
 function compararIdades(pessoa1, pessoa2) {
     if (pessoa1.idade > pessoa2.idade) {
         console.log(`${pessoa1.nome} é mais velho(a) que ${pessoa2.nome}.`)
-    } else if (pessoa1.idade > pessoa2.idade){
+    } else if (pessoa1.idade < pessoa2.idade){
         console.log(`${pessoa2.nome} é mais velho(a) que ${pessoa1.nome}.`)
     } else {
         console.log(`${pessoa1.nome} e ${pessoa2.nome} tem a mesma idade.`)
@@ -31,6 +31,6 @@ function compararIdades(pessoa1, pessoa2) {
 };
 
 const humano1 = new Humanos('Vitor', 23);
-const humano2 = new Humanos('Guilherme', 23)
+const humano2 = new Humanos('Guilherme', 24)
 
 compararIdades(humano1, humano2)
