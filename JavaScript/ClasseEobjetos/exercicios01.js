@@ -11,15 +11,17 @@ class Carros {
     modelo;
     marca;
     cor;
-    gastoPorKm; // = valorCombustiel * KilmetrosRodado
-
+    gastoPorKm;
 
 
     constructor(modelo, marca, cor, gastoPorKm) {
-        this.= nome;
-        this.idade = idade;
-        this.profissao = profissao;
-        this.salario = salario;
-        this.anoDeNascimento = 2023 - idade;
+        this.modelo = modelo;
+        this.marca = marca;
+        this.cor = cor;
+        this.gastoPorKm = gastoPorKm;
+    }
+
+    valorTotalPercurso () {
+        return  this.gastoPorKm * (KilmetrosRodado * valorCombustiel)
     }
 }
