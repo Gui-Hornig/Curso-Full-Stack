@@ -36,14 +36,21 @@ class humanos2 {
     profissao;
     salario;
 
+    constructor(nome, idade, profissao, salario) {
+        this.nome = nome;
+        this.idade = idade;
+        this.profissao = profissao;
+        this.salario = salario;
+        this.anoDeNascimento = 2023 - idade;
+    }
+
+        
     descrever() {
         console.log(`Sou ${this.nome} tenho ${this.idade}, minha profissao e ${this.profissao} e ganho ${this.salario} por mes.`)
     }
-}
 
-constructor(nome, idade, profissao, salario) {
-    this.nome = nome;
-    this.idade = idade;
-    this.profissao = profissao;
-    
-}
+
+};
+
+const humano1 = new humanos2('Guilherme', 23, 'Desenvolvedor', 'R$15.000');
+console.log(humano1)
