@@ -8,7 +8,7 @@ let valorCombustiel = 5.66
 let KilmetrosRodado = 101
 
 class Carros {
-
+   //Sempre que uma informação for obrgatória, cria um constructor 
     constructor(modelo, marca, cor, gastoPorKm) {
         this.modelo = modelo;
         this.marca = marca;
@@ -24,10 +24,10 @@ class Carros {
 }
 
 let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
-let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2)
-let carro3 = new Carros('Sandero', 'Renoult', 'branca', 20)
-console.log(carro1, carro2, carro3)
-carro1.descricao()
-carro2.descricao()
-carro3.descricao()
+let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2);
+let carro3 = new Carros('Sandero', 'Renoult', 'branca', 20);
+console.log(carro1, carro2, carro3);
+carro1.descricao();
+carro2.descricao();
+carro3.descricao();
 
