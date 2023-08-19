@@ -29,8 +29,3 @@ const pessoa1 = new MedirImc('Jose', 70, 1.7);
 console.log(pessoa1);
 /// let imc = console.log(pessoa1.calcularImc().toFixed(2))
 console.log(pessoa1.descrever());
-
-
-
-
-mkl,
