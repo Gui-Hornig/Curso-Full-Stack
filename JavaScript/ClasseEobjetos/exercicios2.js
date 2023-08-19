@@ -11,5 +11,13 @@ class MedirImc {
     peso;
     altura;
 
-    
+    constructor (nome, peso, altura){
+        this.nome = nome;
+        this.peso = peso;
+        this.altura = altura;
+    }
+
+    calcularImc (peso, altura) {
+        return peso / (altura * altura)
+    }
 }
