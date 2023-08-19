@@ -43,4 +43,10 @@ class Carro2 {
         this.cor = cor;
         this.gastoMedioPorKm = gastoMedioPorKm;
     }
+
+    calcularGastoPercurso(distanciaEmKm, precoCombustivel) {
+        return distanciaEmKm * this.gastoMedioPorKm * precoCombustivel;
+    }
 }
+
+const 
