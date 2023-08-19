@@ -4,8 +4,8 @@ Os carros possuem uma marca, uma cor  um gasto medio de combustivel por km rodad
 Crie um metodo que dado a quantidade e opreco do combustivel nos de o valor gasto em reais para realizar este percurso.
 */
 
-let valorCombustiel = 5.66
-let KilmetrosRodado = 101
+let valorCombustiel = 5
+let KilmetrosRodado = 70
 
 class Carros {
    //Sempre que uma informação for obrgatória, cria um constructor 
@@ -23,7 +23,7 @@ class Carros {
 
 }
 
-let carro1 = new Carros('Uno', 'Fiat', 'Preto', 10);
+let carro1 = new Carros('Uno', 'Fiat', 'Preto', 12);
 let carro2 = new Carros('ferrari f40', 'Ferrari', 'vermelha', 2);
 let carro3 = new Carros('Sandero', 'Renoult', 'branca', 20);
 console.log(carro1, carro2, carro3);
