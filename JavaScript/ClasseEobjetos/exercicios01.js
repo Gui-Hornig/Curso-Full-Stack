@@ -31,5 +31,16 @@ carro1.descricao();
 carro2.descricao();
 carro3.descricao();
 
-// outra maneira de solucionar 
+// Outra maneira de solucionar 
 
+class Carro2 {
+    marca;
+    cor;
+    gastoMedioPorKm;
+
+    constructor(marca, cor, gastoMedioPorKm){
+        this.marca = marca;
+        this.cor = cor;
+        this.gastoMedioPorKm = gastoMedioPorKm;
+    }
+}
