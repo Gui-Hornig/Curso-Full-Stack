@@ -31,3 +31,5 @@ carro1.descricao();
 carro2.descricao();
 carro3.descricao();
 
+// outra maneira de solucionar 
+
