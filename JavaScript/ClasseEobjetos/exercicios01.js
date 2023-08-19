@@ -49,4 +49,5 @@ class Carro2 {
     }
 }
 
-const 
+const uno = new Carro2('Fiat', 'Prata', 1/12);
+console.log(uno.calcularGastoPercurso(70, 5).toFixed(2))
