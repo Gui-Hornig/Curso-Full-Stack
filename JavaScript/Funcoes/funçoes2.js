@@ -7,3 +7,4 @@
 <script type="application/json" data-content-len="98" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","cometPageRender",94]]]}</script>
 <script type="application/json" data-content-len="112" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierOneHasteResponseStart",203]]]}</script>
 <script type="application/json" data-content-len="110" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierOneHasteResponseEnd",300]]]}</script>
+<script type="application/json" data-content-len="112" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierTwoHasteResponseStart",326]]]}</script>
