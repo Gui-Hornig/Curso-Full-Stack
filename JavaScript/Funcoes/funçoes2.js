@@ -9,3 +9,4 @@
 <script type="application/json" data-content-len="110" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierOneHasteResponseEnd",300]]]}</script>
 <script type="application/json" data-content-len="112" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierTwoHasteResponseStart",326]]]}</script>
 <script type="application/json" data-content-len="104" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","ssr_signal_left_rail",361]]]}</script>
+<script type="application/json" data-content-len="102" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","ssr_signal_top_nav",364]]]}</script>
