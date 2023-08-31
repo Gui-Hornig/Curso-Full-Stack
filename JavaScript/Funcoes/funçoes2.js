@@ -5,3 +5,4 @@
 <script type="application/json" data-content-len="106" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","preloaderThreadsStarted",80]]]}</script>
 <script type="application/json" data-content-len="93" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","earlyFlush",90]]]}</script>
 <script type="application/json" data-content-len="98" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","cometPageRender",94]]]}</script>
+<script type="application/json" data-content-len="112" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierOneHasteResponseStart",203]]]}</script>
