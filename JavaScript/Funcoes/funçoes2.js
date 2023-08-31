@@ -12,3 +12,4 @@
 <script type="application/json" data-content-len="102" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","ssr_signal_top_nav",364]]]}</script>
 <script type="application/json" data-content-len="110" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierTwoHasteResponseEnd",405]]]}</script>
 <script type="application/json" data-content-len="99" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","ssr_signal_feed",474]]]}</script>
+<script type="application/json" data-content-len="115" data-sjs>{"require":[["qplTimingsServerJS",null,null,["7273584970009519893-server","genTierThreeHasteResponseStart",3460]]]}</script>
