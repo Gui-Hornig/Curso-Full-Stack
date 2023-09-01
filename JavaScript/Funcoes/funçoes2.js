@@ -6,3 +6,4 @@ i['GoogleAnalyticsObject'] = r;
         (i[r].q = i[r].q ||  []).push(arguments);
     }),
     (i[r].l = 1 * new Date());
+    (a = s.createElement(o))
