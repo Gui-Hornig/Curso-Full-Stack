@@ -1,2 +1,2 @@
-(function(i, s, o, g, r, a, m)
-i['GoogleAnalyticsObject']
+(function(i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
