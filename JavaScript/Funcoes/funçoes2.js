@@ -2,4 +2,6 @@
 i['GoogleAnalyticsObject'] = r;
 (i[r] =
     i[r] ||
-    function()
+    function() {
+        (i[r].q = i[r].q ||
+    }
