@@ -10,3 +10,4 @@ i['GoogleAnalyticsObject'] = r;
     a.async = 1;
     a.src = g;
     m.parentNode.insertBefore(a, m);
+})(window, document, 'script',
