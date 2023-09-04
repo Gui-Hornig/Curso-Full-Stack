@@ -13,4 +13,5 @@ body{
     min-height: 100vh;
     background: url('/PageLogin/img/background2.jpg');
     background-size: cover;
+    background-position: center;
 }
