@@ -8,5 +8,6 @@
 }
 body{
     display: flex;
-    ustify-content: center;
+    justify-content: center;
+    align-items: center;
 }
