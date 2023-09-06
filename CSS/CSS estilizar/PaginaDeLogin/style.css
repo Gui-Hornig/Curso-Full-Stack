@@ -26,3 +26,5 @@ body{
 ga('create', 'UA-45745009-5', {name: 'bubbTracker'});
 ga('bubbTracker.send', 'pageview');
 ga('bubbTracker.require', 'ecommerce', 'ecommerce.js');
+{
+  "@context": "http://schema.org",
