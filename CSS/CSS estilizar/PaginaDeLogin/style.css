@@ -33,4 +33,5 @@ ga('bubbTracker.require', 'ecommerce', 'ecommerce.js');
   "alternateName": "Bem-vindo à One Ralf - Sua melhor escolha :) Frete Grátis",
   "url": "https://www.oneralf.com.br",
   "contactPoint": [
-            {
+            {  "@type": "ContactPoint",
+              "telephone": "+5541996306282",
