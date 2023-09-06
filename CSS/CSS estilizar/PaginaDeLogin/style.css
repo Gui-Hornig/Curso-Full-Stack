@@ -28,3 +28,4 @@ ga('bubbTracker.send', 'pageview');
 ga('bubbTracker.require', 'ecommerce', 'ecommerce.js');
 {
   "@context": "http://schema.org",
+  "@type": "Organization",
