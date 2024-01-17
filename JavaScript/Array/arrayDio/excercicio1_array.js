@@ -3,7 +3,6 @@
 
 
 
-for (let i = 0; index < array.length; index++) {
-    const element = array[index];
+for (let i = 1; index < 10; index++) {
     
 }
