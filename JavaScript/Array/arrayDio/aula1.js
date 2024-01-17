@@ -36,6 +36,7 @@ for (let i = 0; i < nome.length; i++) {
 
 
 const notas = []
+console.log('passou por aqui')
 
 notas.push(5)
 notas.push(7)
