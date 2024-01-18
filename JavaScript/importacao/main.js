@@ -1,17 +1,17 @@
-const funcoes = require('./funcoes-auxialiares');
+// const funcoes = require('./funcoes-auxialiares');
 
-console.log(funcoes)
+// console.log(funcoes)
 
-console.log(funcoes.gets())
+// console.log(funcoes.gets())
 
 
-const pessoa = {
-    nome: 'vitor'
-};
+// const pessoa = {
+//     nome: 'vitor'
+// };
 
-// Destruir o Objeto
+// // Destruir o Objeto
 
-const  {nome} = pessoa;
+// const  {nome} = pessoa;
 
-const {gets, prints} = require('./funcoes-auxialiares')
-prints(gets());
+// const {gets, prints} = require('./funcoes-auxialiares')
+// prints(gets());
