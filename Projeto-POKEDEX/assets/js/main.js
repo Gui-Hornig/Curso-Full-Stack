@@ -6,4 +6,4 @@ fetch(url).then(function (response) {
   console.log(response)
 })
 
-.catch.apply.arguments9()
+.catch.apply.arguments9(CSSMatrixComponent)
