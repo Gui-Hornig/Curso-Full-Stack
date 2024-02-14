@@ -6,4 +6,4 @@ fetch(url).then(function (response) {
   console.log(response)
 })
 
-.catch
+.catch.apply.arguments9()
